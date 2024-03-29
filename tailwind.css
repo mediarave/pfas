@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .schedule {
+        section {
+            table {
+                tbody {
+                    tr {
+                        @apply hover:bg-cyan-50 border-0 border-b border-solid last:border-b-0;
+
+                        td {
+                            @apply border-0;
+                            &:first-child {
+                                @apply w-8 sm:w-24 md:w-48;
+                            }
+                            @apply p-4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .modal {
+        @apply max-w-7xl;
+
+        a.close-modal {
+            @apply w-8 h-8 bg-cyan-500 rounded-full bg-blend-screen;
+        }
+    }
+}

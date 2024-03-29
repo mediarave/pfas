@@ -1,0 +1,70 @@
+{{#each agenda}}
+<tr class="{{#if ../session}}bg-stone-100{{/if}}">
+    <td class="font-bold">{{time}}</td>
+    <td>
+        {{#if presenters.length}}
+        <div class="presenters pb-1 border-0 border-b border-dashed border-slate-400">
+            {{#each presenters}}
+            {{#if this.affiliation}}
+            <div><b class="text-xl"><a class="presenter no-underline hover:border-0 hover:border-b-2 hover:border-dotted" href="#bio{{@../index}}-{{imageName this.name}}" rel="modal:open">{{this.name}}</a></b> - {{this.affiliation}}</div>
+            <div id="bio{{@../index}}-{{imageName this.name}}" class="modal">
+                <article class="profile container flex-col flex md:flex-row">
+                    <aside class="flex-1 my-10 max-w-sm break-words">
+
+                        {{#if this.photo}}
+                        <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
+                            <img class="w-full block relative -z-20" src="{{this.photo}}" alt="{{this.name}}">
+                        </div>
+                        {{/if}}
+
+                        <h4 class="font-bold text-2xl text-cyan-600 mt-4">{{this.name}}</h4>
+                        <h5 class="font-bold text-xl">{{this.affiliation}}</h5>
+                    </aside>
+
+                    <div class="description flex-1 md:p-10 font-semibold">{{this.bio}}</div>
+                </article>
+            </div>
+
+            {{else}}
+            {{#if (bio this @root.bios 'name')}}
+            <div>
+                <b class="text-xl">
+                {{#if (bio this @root.bios 'affiliation')}}
+                <a class="presenter no-underline hover:border-0 hover:border-b-2 hover:border-dotted"
+                    href="#bio{{@../index}}-{{imageName this}}"
+                    rel="modal:open">{{bio this @root.bios "name"}}</a></b> - {{{bio this @root.bios "affiliation"}}}
+                {{else}}
+                {{bio this @root.bios "name"}}
+                {{/if}}
+            </div>
+            <div id="bio{{@../index}}-{{imageName this}}" class="modal">
+                <article class="profile flex-col flex gap-5 lg:flex-row">
+                    <aside class="flex-1 my-5 max-w-sm break-words">
+
+                        {{#if (bio this @root.bios 'photo')}}
+                        <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
+                            <img class="w-full block relative -z-20" src="{{bio this @root.bios 'photo'}}" alt="{{bio this @root.bios 'name'}}">
+                        </div>
+                        {{/if}}
+
+                        <h4 class="font-bold text-2xl text-cyan-600 mt-4">{{bio this @root.bios 'name'}}</h4>
+                        <h5 class="font-bold text-xl">{{bio this @root.bios 'affiliation'}}</h5>
+                    </aside>
+
+                    <div class="description flex-1 lg:p-5 font-semibold">{{{bio this @root.bios 'bio'}}}</div>
+                </article>
+            </div>
+            {{/if}}
+            {{/if}}
+            {{/each}}
+        </div>
+        {{/if}}
+        <div class="text-cyan-600 text-lg {{#if presenters.length}}mt-4{{else}}font-bold{{/if}}">
+            {{event}}
+        </div>
+    </td>
+</tr>
+{{/each}}
+<tr>
+    <td colspan="2"></td>
+</tr>
