@@ -1,0 +1,30 @@
+{
+    "name": "pfas-schedule",
+    "version": "1.0.0",
+    "description": "PFAS Schedule",
+    "main": "schedule.js",
+    "repository": "git@gitlab.com:alokmishra",
+    "author": "Alok Mishra <alok@mediarave.com>",
+    "license": "UNLICENSED",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "postcss": "set TAILWIND_MODE=watch& postcss tailwind.css -o pfas.css -w",
+        "build": "set NODE_ENV=production& postcss tailwind.css -o pfas.css",
+        "serve": "browser-sync start --server --directory --files \"./*.html, ./*.js\"",
+        "schedule": "node schedule.js",
+        "dev": "npm-run-all --parallel postcss serve schedule"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.18",
+        "browser-sync": "^3.0.2",
+        "cssnano": "^6.1.0",
+        "handlebars": "^4.7.8",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.4.35",
+        "postcss-cli": "^11.0.0",
+        "postcss-import": "^16.0.1",
+        "strip-json-comments": "^5.0.1",
+        "tailwindcss": "^3.4.1"
+    }
+}
