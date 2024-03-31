@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
 const colors = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    content: ['./*.{html,js}'],
+    content: ['./public/schedule.html'],
     safelist: ['hidden'],
     theme: {
         extend: {
@@ -12,6 +13,9 @@ module.exports = {
             },
             maxWidth: {
                 xxs: '16rem',
+            },
+            fontFamily: {
+                sans: ['Poppins', ...defaultTheme.fontFamily.sans],
             },
         },
     },

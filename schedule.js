@@ -16,7 +16,7 @@ handlebars.registerHelper('debug', function (value) {
     console.log('========================================');
 });
 
-handlebars.registerHelper('imageName', name => name.toLowerCase().replace(/ /g, '-').replace(/\./g, ''));
+handlebars.registerHelper('imageName', (name) => name.toLowerCase().replace(/ /g, '-').replace(/\./g, ''));
 
 handlebars.registerHelper('bio', (id, bios, property) => (bios[id] ? bios[id][property] : ''));
 
@@ -29,7 +29,7 @@ const updateSchedule = () => {
     const schedule = JSON.parse(stripJsonComments(fs.readFileSync(path.join(scriptDir, 'schedule.jsonc'), 'utf8')));
 
     const scheduleHtml = scheduleTemplate(schedule);
-    fs.writeFileSync(path.join(scriptDir, 'schedule.html'), scheduleHtml);
+    fs.writeFileSync(path.join(scriptDir, 'public', 'schedule.html'), scheduleHtml);
 };
 
 fs.watchFile(path.join(scriptDir, 'schedule.hbs'), { persistent: true }, () => {

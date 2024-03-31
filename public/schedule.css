@@ -217,11 +217,11 @@
 .border-b{
                     border-bottom-width: 1px
 }
+.border-b-4{
+                    border-bottom-width: 4px
+}
 .border-b-8{
                     border-bottom-width: 8px
-}
-.border-b-2{
-                    border-bottom-width: 2px
 }
 .border-solid{
                     border-style: solid
@@ -241,12 +241,29 @@
                     --tw-border-opacity: 1;
                     border-color: rgb(148 163 184 / var(--tw-border-opacity))
 }
+.border-cyan-400{
+                    --tw-border-opacity: 1;
+                    border-color: rgb(34 211 238 / var(--tw-border-opacity))
+}
 .border-b-white{
                     --tw-border-opacity: 1;
                     border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity))
 }
+.border-b-cyan-600{
+                    --tw-border-opacity: 1;
+                    border-bottom-color: rgb(8 145 178 / var(--tw-border-opacity))
+}
 .bg-teal-950{
                     background-color: #042f2e
+}
+.bg-teal-900{
+                    background-color: #134e4a
+}
+.bg-cyan-900{
+                    background-color: #164e63
+}
+.bg-cyan-950{
+                    background-color: #083344
 }
 .bg-gradient-to-b{
                     background-image: linear-gradient(to bottom, var(--tw-gradient-stops))
@@ -262,6 +279,12 @@
 .to-teal-950{
                     --tw-gradient-to: #042f2e var(--tw-gradient-to-position)
 }
+.to-cyan-900{
+                    --tw-gradient-to: #164e63 var(--tw-gradient-to-position)
+}
+.to-cyan-950{
+                    --tw-gradient-to: #083344 var(--tw-gradient-to-position)
+}
 .bg-cover{
                     background-size: cover
 }
@@ -273,6 +296,9 @@
 }
 .pb-1{
                     padding-bottom: 0.25rem
+}
+.font-sans{
+                    font-family: Poppins, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 .text-2xl{
                     font-size: 1.5rem;
@@ -289,6 +315,18 @@
 .text-xl{
                     font-size: 1.25rem;
                     line-height: 1.75rem
+}
+.text-4xl{
+                    font-size: 2.25rem;
+                    line-height: 2.5rem
+}
+.text-6xl{
+                    font-size: 3.75rem;
+                    line-height: 1
+}
+.text-5xl{
+                    font-size: 3rem;
+                    line-height: 1
 }
 .font-bold{
                     font-weight: 700
@@ -307,6 +345,15 @@
 }
 .text-sky-100{
                     color: #e0f2fe
+}
+.text-cyan-900{
+                    color: #164e63
+}
+.text-cyan-400{
+                    color: #22d3ee
+}
+.text-cyan-200{
+                    color: #a5f3fc
 }
 .no-underline{
                     text-decoration-line: none
