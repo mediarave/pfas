@@ -107,13 +107,15 @@
 .schedule section table tbody tr{
                     border-width: 0px;
                     border-bottom-width: 1px;
-                    border-style: solid
+                    border-style: solid;
+                    --tw-border-opacity: 1;
+                    border-color: rgb(100 116 139 / var(--tw-border-opacity))
 }
 .schedule section table tbody tr:last-child{
                     border-bottom-width: 0px
 }
 .schedule section table tbody tr:hover{
-                    background-color: #ecfeff
+                    background-color: #155e75
 }
 .schedule section table tbody tr td{
                     border-width: 0px
@@ -135,7 +137,8 @@
                     padding: 1rem
 }
 .modal{
-                    max-width: 80rem
+                    max-width: 80rem;
+                    background-color: #164e63
 }
 .modal a.close-modal{
                     height: 2rem;
@@ -229,41 +232,24 @@
 .border-dashed{
                     border-style: dashed
 }
-.border-cyan-600{
-                    --tw-border-opacity: 1;
-                    border-color: rgb(8 145 178 / var(--tw-border-opacity))
-}
-.border-purple-800{
-                    --tw-border-opacity: 1;
-                    border-color: rgb(107 33 168 / var(--tw-border-opacity))
-}
-.border-slate-400{
-                    --tw-border-opacity: 1;
-                    border-color: rgb(148 163 184 / var(--tw-border-opacity))
-}
 .border-cyan-400{
                     --tw-border-opacity: 1;
                     border-color: rgb(34 211 238 / var(--tw-border-opacity))
 }
-.border-b-white{
+.border-slate-200{
                     --tw-border-opacity: 1;
-                    border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity))
+                    border-color: rgb(226 232 240 / var(--tw-border-opacity))
+}
+.border-cyan-600{
+                    --tw-border-opacity: 1;
+                    border-color: rgb(8 145 178 / var(--tw-border-opacity))
 }
 .border-b-cyan-600{
                     --tw-border-opacity: 1;
                     border-bottom-color: rgb(8 145 178 / var(--tw-border-opacity))
 }
-.bg-teal-950{
-                    background-color: #042f2e
-}
-.bg-teal-900{
-                    background-color: #134e4a
-}
 .bg-cyan-900{
                     background-color: #164e63
-}
-.bg-cyan-950{
-                    background-color: #083344
 }
 .bg-gradient-to-b{
                     background-image: linear-gradient(to bottom, var(--tw-gradient-stops))
@@ -272,15 +258,6 @@
                     --tw-gradient-from: transparent var(--tw-gradient-from-position);
                     --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
                     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
-}
-.to-teal-600{
-                    --tw-gradient-to: #0d9488 var(--tw-gradient-to-position)
-}
-.to-teal-950{
-                    --tw-gradient-to: #042f2e var(--tw-gradient-to-position)
-}
-.to-cyan-900{
-                    --tw-gradient-to: #164e63 var(--tw-gradient-to-position)
 }
 .to-cyan-950{
                     --tw-gradient-to: #083344 var(--tw-gradient-to-position)
@@ -304,6 +281,10 @@
                     font-size: 1.5rem;
                     line-height: 2rem
 }
+.text-5xl{
+                    font-size: 3rem;
+                    line-height: 1
+}
 .text-lg{
                     font-size: 1.125rem;
                     line-height: 1.75rem
@@ -316,18 +297,6 @@
                     font-size: 1.25rem;
                     line-height: 1.75rem
 }
-.text-4xl{
-                    font-size: 2.25rem;
-                    line-height: 2.5rem
-}
-.text-6xl{
-                    font-size: 3.75rem;
-                    line-height: 1
-}
-.text-5xl{
-                    font-size: 3rem;
-                    line-height: 1
-}
 .font-bold{
                     font-weight: 700
 }
@@ -337,23 +306,23 @@
 .uppercase{
                     text-transform: uppercase
 }
-.text-cyan-600{
-                    color: #0891b2
+.text-cyan-100{
+                    color: #cffafe
 }
-.text-purple-900{
-                    color: #581c87
+.text-cyan-200{
+                    color: #a5f3fc
 }
 .text-sky-100{
                     color: #e0f2fe
 }
-.text-cyan-900{
-                    color: #164e63
-}
 .text-cyan-400{
                     color: #22d3ee
 }
-.text-cyan-200{
-                    color: #a5f3fc
+.text-cyan-600{
+                    color: #0891b2
+}
+.text-slate-300{
+                    color: #cbd5e1
 }
 .no-underline{
                     text-decoration-line: none

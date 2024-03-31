@@ -24,11 +24,11 @@
     <header class="p-10 border-0 border-b-4 border-b-cyan-600 border-solid">
         <h1 class="text-5xl">Schedule of Events</h1>
         <p>
-            The technical program is under development by the organizing committee, which uses community feedback to determine sessions and invite speakers. We are soliciting poster abstracts, which are due April 1, 2024, using this link. Join our mailing list to receive updates.
+            The technical program is under development by the organizing committee, which uses community feedback to determine sessions and invite speakers. Join our mailing list to receive updates.
         </p>
     </header>
 
-    <main class="relative">
+    <main class="schedule relative">
 
         <figure class="absolute m-0 w-full min-h-[200vh]">
             <div class="absolute inset-0 bg-center bg-cover opacity-20" style="background-image: url('https://static.wixstatic.com/media/ffaf03\_834565175692424fa6844f18bfc7ff3a~mv2.jpg/v1/fill/w\_1284,h\_1494,al\_c,q\_85,usm\_0.66\_1.00\_0.01,enc\_auto/ffaf03\_834565175692424fa6844f18bfc7ff3a~mv2.jpg');"></div>
@@ -44,7 +44,7 @@
                         {{> agenda }}
                         {{#each sessions}}
                         <tr>
-                            <td colspan="2" class="bg-purple-100 font-bold text-center text-2xl">{{title}}</td>
+                            <td colspan="2" class="bg-cyan-100 font-bold text-center text-2xl">{{title}}</td>
                         </tr>
                         {{> agenda session=true agenda=this.agenda}}
                         {{/each}}

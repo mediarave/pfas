@@ -1,34 +1,21 @@
 {
-    "title": "AIM",
+    "title": "PFAS",
     "schedule": [
         {
-            // FRIDAY, MAY 17, 2024
-            //         Pre-Conference Meetings
-            // 16:00		Guided walking tour of Boston area
-            // 19:00		Welcome Reception
-
-            "day": "FRIDAY, MAY 17, 2024",
+            "day": "Sunday June 9, 2024",
             "agenda": [
                 {
-                    "time": "16:00",
-                    "event": "Guided walking tour of Boston area"
+                    "time": "2:00 - 5:00",
+                    "event": "Toxic Tours"
                 },
                 {
-                    "time": "19:00",
-                    "event": "Welcome Reception"
+                    "time": "7:00 - 9:00",
+                    "event": "Meet and Greet"
                 }
             ]
         },
         {
-            // SATURDAY, MAY 18, 2024
-            // 7:15					Registration & Breakfast
-            // 8:00		"Mariana Castells, Brigham and Women's Hospital, Harvard University", "Jason Gotlib, Stanford University" Welcome
-            // 8:05		Melody Carter, National Institutes of Health			K. Frank Austen Lifetime Achievement Award presented to Dean Metcalfe
-            // 8:15		Dean Metcalfe, National Institue of Allergy and Infectious Diseases			K. Frank Austen Lifetime Achievement Award lecture
-            // 8:35		Peter Valent, Medical University of Vienna			Diagnosis and Classification of Mast Cell Diseases:  2023 Status Update
-            // 8:55		BREAK
-
-            "day": "SATURDAY, MAY 18, 2024",
+            "day": "Day 1: Monday June 10, 2024",
             "agenda": [
                 {
                     "time": "7:15",
@@ -45,16 +32,6 @@
                     "event": "K. Frank Austen Lifetime Achievement Award presented to Dean Metcalfe"
                 },
                 {
-                    "time": "8:15",
-                    "presenters": ["dean-metcalfe"],
-                    "event": "K. Frank Austen Lifetime Achievement Award lecture"
-                },
-                {
-                    "time": "8:35",
-                    "presenters": ["peter-valent"],
-                    "event": "Diagnosis and classification of mast cell diseases:  2024 status update"
-                },
-                {
                     "time": "8:55",
                     "event": "BREAK"
                 }
@@ -69,7 +46,16 @@
             ]
         },
         {
-            "day": "SUNDAY, MAY 19, 2024",
+            "day": "Day 2: Tuesday June 11, 2024",
+            "agenda": [
+                {
+                    "time": "7:15",
+                    "event": "Breakfast"
+                }
+            ]
+        },
+        {
+            "day": "Day 3: Wednesday June 12, 2024",
             "agenda": [
                 {
                     "time": "7:15",
@@ -79,9 +65,6 @@
         }
     ],
     "bios": {
-        "session-chairs": {
-            "name": "Session Chairs"
-        },
         "adrian-piliponsky": {
             "name": "Adrian M. Piliponsky",
             "affiliation": "Seattle Children's Research Institute",
@@ -99,75 +82,11 @@
             "name": "Celalettin Ustun",
             "affiliation": "Rush University"
         },
-        "dan-dwyer": {
-            "name": "Dan Dwyer",
-            "affiliation": "Brigham and Women's Hospital, Harvard University",
-            "bio": "I received my PhD from the Harvard University Immunology program under the mentorship of Dr. K. Frank Austen, where I studied the initiation of allergic inflammation. I continued focusing on Th2 inflammation during my post-doctoral research with Dr. Nora Barrett at Brigham and Women's Hospital, where I focused on defining the transcriptional landscape of murine connective tissue mast cells and using single-cell RNA sequencing to define key cellular players and map mast cell heterogeneity within human nasal polyposis. I started my independent laboratory at Brigham and Women's Hospital in Fall 2019, where my research has focused on determining the signals that recruit mast cell progenitors from the circulation to inflamed tissues, understanding how these progenitors integrate tissue- and inflammation-associated signals to take on a range of discrete phenotypes, and discovering how heterogeneous mast cell phenotypes influence both tissue homeostasis and disease progression.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/dan-dwyer.jpg"
-        },
-        "dean-metcalfe": {
-            "name": "Dean Metcalfe",
-            "affiliation": "National Institute of Allergy and Infectious Diseases",
-            "bio": "Dr. Metcalfe received an M.D. from the University of Tennessee, was a resident in Internal Medicine at the University of Michigan, a Fellow in A&I at NIH and a Fellow in Rheumatology/Immunology at the Robert Brigham. In 1979, he returned to NIH as a Senior Scientist.  In 1995, Dr. Metcalfe was appointed the first Chief of the Laboratory of Allergic Diseases within NIAID, a position he held until stepping down in 2017.  He remained Chief of the Mast Cell Biology Section until 2022 and is now an NIH Scientist Emeritus.  Dr. Metcalfe's career has focused of mast cell biology and clonal mast cell disorders, resulting in over 680 scientific publications.  He is a past President of the AAAAI and is the recipient of honors including the AAAAI Distinguished Scientist Award and the ECNM Researcher of the Year. Dr. Metcalfe has mentored well over 200 fellows, visiting scientists and students.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/dean-metcalfe.jpg"
-        },
-        "fabio-santos": {
-            "name": "Fabio Santos",
-            "affiliation": "Hospital Isrealita Albert Einstein"
-        },
-        "glen-cruse": {
-            "name": "Glenn Cruse",
-            "affiliation": "North Carolina State University",
-            "bio": "Dr. Glenn Cruse, PhD, is an Associate Professor and University Faculty Scholar at North Carolina State University within the College of Veterinary Medicine. Dr. Cruse completed his Ph.D. at the University of Leicester, United Kingdom under the mentorship of Prof. Peter Bradding. During his Ph.D., he focused on human lung mast cell biology in asthma. He then moved to Bethesda, Maryland, as a postdoctoral fellow in the Laboratory of Allergic Diseases, NIAID at NIH where his research interest expanded to include mastocytosis and mast cell neoplasms under the guidance of Dr. Dean Metcalfe. In 2016, Dr. Cruse started his independent research program at NC State University. The goal of his NIH and industry-supported research program is to understand the role that mast cells play in allergic and inflammatory diseases, establish novel regulators of mast cell function, and develop targeted therapeutics for mast cell-mediated inflammatory and proliferative diseases.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/glenn-cruse.jpg"
-        },
-        "gregor-hoermann": {
-            "name": "Gregor Hoermann",
-            "affiliation": "Munich Leukemia Laboratory",
-            "bio": "Gregor Hoermann works as a specialist in laboratory medicine & clinical pathology at the MLL Munich Leukemia Laboratory, Germany. He obtained his M.D. and Ph.D. degree in Vienna and worked as Associate Professor at the Department of Laboratory Medicine of the Medical University of Vienna and at the University Hospital Innsbruck, Austria. He has both basic science and translational research interests in the field of myeloid neoplasms and published 160 papers in peer reviewed journals. Main topics in the field of mastocytosis are molecular diagnostics, hereditary alpha tryptasemia and the role of cytokines in the pathogenesis of the disease. He is a member of several national and international scientific and medical associations and served in the scientific committee on hematopathology & clinical laboratory hematology of the American Society of Hematology.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/gregor-hoermann.jpg"
-        },
         "irina-maric": {
             "name": "Irina Maric",
             "affiliation": "National Institutes of Health",
             "bio": "Dr. Irina Maric is a Senior Research Physician and Attending Hematopathologist within the Hematology Service, Department of Laboratory Medicine at the NIH Clinical Center, Bethesda, MD. She is a Director of the Myeloid Core Laboratory, specializing in molecular and flow cytometric assays for detection of rare myeloproliferative diseases.  Dr. Maric has a special research interest in rare chronic myeloproliferative diseases, particularly systemic mastocytosis and chronic eosinophilic leukemia. She has published over 150 peer-reviewed papers and four book chapters.",
             "photo": "https://aimcd.net/wp-content/uploads/2024/03/irina-maric.jpg"
-        },
-        "jason-gotlib": {
-            "name": "Jason Gotlib",
-            "affiliation": "Stanford University",
-            "bio": "Dr. Gotlib is Professor of Medicine in the Division of Hematology at the Stanford University School of Medicine / Stanford Cancer Institute. His research focus is clinical and translational evaluation of novel therapies for myeloproliferative neoplasms, with a focus on KIT inhibitors for systemic mastocytosis (SM). Dr. Gotlib has authored more than 250 research articles, chapters, and reviews that have been published in journals such as Blood, Journal of Clinical Oncology, Nature Medicine, and The New England Journal of Medicine. He is Vice-Chair of the NCCN Guidelines Committee on Myeloproliferative Neoplasms, and chaired the NCCN guideline development for SM. He led the clinical development of midostaurin and avapritinib for patients with advanced SM, as well as response criteria for these diseases which are used by regulatory agencies for drug approval. Dr. Gotlib was awarded the European Competence Network on Mastocytosis (ECNM) Medal as Researcher of the Year in 2019 for the development of KIT-targeting therapies in advanced SM. He currently serves as President of the American Initiative in Mast Cell Diseases (AIM). Dr. Gotlib enjoys landscape photography in his spare time.",
-            "photo": "https://aimcd.net/wp-content/uploads/2022/01/Jason-Gotlib.jpg"
-        },
-        "jennifer-nicoloro-santabarbara": {
-            "name": "Jennifer Nicoloro-SantaBarbara",
-            "affiliation": "Brigham and Women's Hospital, Harvard University",
-            "bio": "Jennifer earned her PhD in Social and Health Psychology from Stony Brook University. She then completed a NIMH T32 postdoctoral fellowship in Biobehavioral Issues in Mental and Physical Health at UCLA. Currently, she holds the position of Investigator in the Department of Psychiatry and is an affiliated member of the Mastocytosis Center at Brigham and Women's Hospital. Additionally, she serves as an Instructor of Psychiatry at Harvard Medical School. Her research focuses on parsing the heterogeneous and complex nature of depression, especially in the context of chronic illnesses such as mastocytosis so as to reduce illness burden and improve patient's quality of life.  Notably, she is a past recipient of Harvard Medical School's Kaplen Fellowship in Depression and serves on The Mast Cell Disease Society's Board of Directors",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/jennifer-nicoloro-santabarbara.jpg"
-        },
-        "johnathan-lyons": {
-            "name": "Jonathan Lyons",
-            "affiliation": "University of California San Diego",
-            "bio": "<p>Dr. Lyons received his undergraduate education at Pomona College and Jesus College, Cambridge, UK, where he spent two terms. He graduated with a B.A. in Chemistry from Pomona College in 2003 and earned a Doctor of Medicine from the University of Southern California in 2007. Dr. Lyons completed residency training in Internal Medicine at the University of California, San Diego, in 2010, and served as a Chief Medical Resident in Internal Medicine in 2011. He concluded his formal medical training in 2014 at NIAID as a Clinical Fellow in Allergy and Immunology. Following completion of fellowship, Jonathan was selected for the NIAID Transition Program in Clinical Research, and he served as an Assistant Clinical Investigator in the Laboratory of Allergic Diseases (LAD) until 2018 when he was selected as a tenure-track PI. Beginning in 2018 Dr. Lyons served as the Chief of the Translational Allergic Immunopathology Unit in the LAD. where his lab uses a variety of genetic approaches in order to identify mechanisms and pathways critical to allergic inflammation and hypersensitivity that can be targeted to conduct first in human clinical trials. In 2023, Dr. Lyons moved his lab to UCSD where he is Professor of Medicine and continues his studies into the genetic underpinnings of severe allergic inflammation and reactions.</p> <p>In 2015 Dr. Lyons received the AAAAI Foundation / The Mastocytosis Society Research Award in Mastocytosis and/or Mast Cell Activation Syndrome and Dr. Lyons has received NIAID Merit Awards in 2016, 2017, and 2020 for his work related to the identification and characterization of hereditary alpha-tryptasemia as a common genetic trait and modifier of mast cell-associated diseases and reactions. Dr. Lyons was named a Lasker Scholar in 2018, in 2020 he received the Young Physician-Scientist Award from the American Society for Clinical Investigation, and in 2021 was awarded the Innovation in Research Award by The Mast Cell Disease Society.</p>",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/johnathan-lyons.jpg"
-        },
-        "joshua-boyce": {
-            "name": "Joshua Boyce",
-            "affiliation": "Brigham and Women's Hospital, Harvard University",
-            "bio": "Joshua A. Boyce, MD, FAAAAI, is the Albert L. Sheffer Professor of Medicine at the Harvard Medical School. He is Chief of the Division of Allergy and Clinical Immunology at the Brigham and Women's Hospital, overseeing one of the largest and most successful research and training programs in the specialty. Dr. Boyce has trained more than 30 fellows in his lab, almost all of whom have full time research positions in academia or industry. His research on the mechanisms of aspirin sensitivity and lipid mediator control of type 2 inflammation and mast cell function have been funded by National Institute of Health (NIH) since 1995, with  over 150 peer reviewed studies. Dr. Boyce received the AAAAI Mentoring Award in 2020. In addition, he chaired the expert panels that generated both the National Institute of Allergy and Infectious Diseases-sponsored food allergy guidelines and the addendum for the prevention of peanut allergy.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/joshua-boyce.jpg"
-        },
-        "larry-schwartz": {
-            "name": "Larry Schwartz",
-            "affiliation": "Virginia Commonwealth University",
-            "bio": "Lawrence (Larry) Schwartz, Distinguished Professor of Medicine, at Virginia Commonwealth University, is a translational research investigator who, with colleagues, has made fundamental discoveries about human mast cells. These include identifying different types of mast cells; and discovering human α-, β-, and α/β-tryptases, characterizing their proteolytic activities, producing an anti-tryptase inhibitor of potential therapeutic utility, and inventing clinically useful tryptase immunoassays that facilitate the diagnosis of systemic mastocytosis (FDA and WHO approved) and of anaphylaxis, the discovery and diagnosis of mast cell activation syndromes and of hereditary alpha-tryptasemia, and the monitoring of mast cell cytoreductive therapies. By caring for patients with such disorders and being involved in related basic, translational, and clinical research, he has a unique perspective to share.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/larry-schwartz.jpg"
-        },
-        "mark-siracusa": {
-            "name": "Mark C. Siracusa",
-            "affiliation": "Rutgers University",
-            "bio": "Dr. Siracusa received his doctorate in 2008 from Johns Hopkins University where his work focused on understanding how type 2 inflammation initiated by helminth parasites is regulated. Following his time at Johns Hopkins, Dr. Siracusa continued his training at the University of Pennsylvania where he made seminal discoveries defining the host protective functions of basophils and mast cells. In 2014 Dr. Siracusa was recruited to the Center for Immunity and Inflammation at Rutgers New Jersey Medical School as the Universities first Chancellor Scholar. Dr. Siracusa has established a successful NIH-funded research program that has made fundamental discoveries defining the diverse roles that granulocytes and neuroimmune interactions play in regulating type 2 inflammation. Dr. Siracusa also serves on the Innate Immunity and Inflammation Study Section and is the President and Founder of NemaGen Discoveries, a biotech start-up company that develops novel therapeutics based on pathways discovered in his laboratory. ",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/mark-siracusa.jpg"
         },
         "mariana-castells": {
             "name": "Mariana Castells",
@@ -192,68 +111,6 @@
             "affiliation": "National Institutes of Health",
             "bio": "<p>Dr. Carter is a senior research clinician in the Laboratory of Allergic Diseases at the National Institutes of Health (NIH). She is board-certified in Allergy/Immunology and Pediatrics. Dr. Carter’s current focus of study is based on clinical protocols in anaphylaxis (idiopathic and antigen-induced) and pediatric mastocytosis. These protocols involves patient recruitment, inpatient and outpatient care responsibilities, teaching rounds and lectures for the ward team, allergic-disease focused lectures for nursing, critical care medicine, dermatology, and hematology, attending duties for the A&I training program, bench research, interfacing with regulatory agencies and a pharmaceutical company for a drug trial, collaborative relationships with University faculty, data analysis and manuscript preparation and presentation of data at scientific meetings.</p> <p>She has been consistently invited to present her research at the American Academy of Allergy, Asthma and Immunology (AAAAI), European Competence Network for Mastocytosis and European Academy of Allergy and Clinical Immunology annual meetings. She is considered an international expert on pediatric mastocytosis and frequently consulted regarding management. Dr. Carter was instrumental in establishing a pediatric-focused mastocytosis referral center at the NIH.</p> <p>She has served in numerous roles for the AAAAI including Board of Directors (2016-2020), Chair (2015-2017) and Vice Chair of the Mast Cell Disorders Committee; member, Committee for the Underserved. She is an member of the Editorial Board for The J Allergy Clin Immunol: Pract (2020-2025). For the National Medical Association, she has acted as a consultant on the Consensus Panel on Asthma in the African American Community and is a member of the Allergy Division. She is a member of the steering committee for the American Initiative in Mast Cell Diseases (AIM). Dr. Carter is a mentor for the NIAID post-baccalaureate and the Intramural NIAID Research Opportunities (INRO) committee.</p>",
             "photo": "https://aimcd.net/wp-content/uploads/2022/01/Melody-Carter.jpg"
-        },
-        "michael-deininger": {
-            "name": "Michael Deininger",
-            "affiliation": "Versiti Blood Research Institute"
-        },
-        "nives-zimmermann": {
-            "name": "Nives Zimmermann",
-            "affiliation": "University of Cincinnati",
-            "bio": "Nives Zimmermann, M.D. is a physician-scientist at the University of Cincinnati, Ohio, USA. Clinically, she is a pathologist, with focus on hematopathology. Her research focuses on eosinophil- and mast cell-mediated diseases.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/nives-zimmermann.jpg"
-        },
-        "olga-pozdnyakova": {
-            "name": "Olga Pozdnyakova",
-            "affiliation": "University of Pennsylvania",
-            "bio": "Dr. Olga Pozdnyakova is the Director of the Hematopathology Division at the Hospital of the University of Pennsylvania. She also serves as the Medical Director of the Hematology and Flow Cytometry laboratories. Originally from Moscow, Russia, Dr. Pozdnyakova studied medicine at the Russian State Medical University. Dr. Pozdnyakova was trained in Anatomic and Clinical Pathology at the University of Massachusetts Memorial Medical Center and Hematopathology at Brigham and Women's Hospital.  Dr. Pozdnyakova is an author of over 100 peer-reviewed publications and reviews.  She has authored chapters on the topic of myeloid neoplasm in several fundamental pathology textbooks, such as Diagnostic Histopathology of Tumors, Wintrobe's Atlas of Clinical Hematology, Diagnosis of Blood and Bone Marrow Disorders and Diagnostic Bone Marrow Hematopathology.  She is the Chair of the College of American Pathologists Hematology and Clinical Microscopy Committee.  Dr. Pozdnyakova has presented at numerous national and international pathology meetings and courses.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/olga-pozdnyakova.jpg"
-        },
-        "pedro-giavina-binachi": {
-            "name": "Pedro Giavina Binachi",
-            "affiliation": "University of Sao Paolo"
-        },
-        "peng-li": {
-            "name": "Peng Li",
-            "affiliation": "ARUP Laboratories / University of Utah",
-            "bio": "Dr. Li received her MD and master of science degree in microbiology from Peking University Health Science Center in Beijing, China. She went on to complete a PhD in molecular pharmacology and structural biology at Thomas Jefferson University in Philadelphia. She joined the University of Utah School of Medicine as a resident in anatomic and clinical pathology, then pursued a hematopathology fellowship at Stanford University and a molecular genetic pathology fellowship at Baylor College of Medicine. Dr. Li is board certified by the American Board of Pathology in anatomic and clinical pathology, hematopathology, and molecular genetic pathology. She is an associate professor at the department of pathology, in the University of Utah, and associated chief medical director of the ARUP Institute for Research and Development. Her research interests include genetic aspects of malignancy and myeloid neoplasms with germline predisposition.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/peng-li.jpg"
-        },
-        "peter-valent": {
-            "name": "Peter Valent",
-            "affiliation": "Medical University of Vienna",
-            "bio": "Professor Peter Valent is head of a research group and director of the Ludwig Boltzmann Institute for Hematology and Oncology at the Medical University of Vienna, Austria. He coordinates the European Competence Network on Mastocytosis (ECNM) and runs a center of excellence for myeloid neoplasms and mast cell disorders. He organized a number of working conferences on diagnostic criteria and standards in mast cell neoplasms in Vienna in the past 25 years, resulting in consensus criteria and the WHO classification in mastocytosis. Special focus in his research are the identification of novel markers and targets in neoplastic mast cells and the development of diagnostic criteria and of targeted drug therapies in systemic mastocytosis and other myeloid neoplasms. Professor Valent is member in diverse medical societies, including the American Society of Hematology and serves in various editorial boards and as a reviewer in most top hematology journals. He published more than 900 peer-reviewed articles including numerous review articles and text book chapters in his areas of expertise, lectured widely in Europe and North America and received numerous scientific awards.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/peter-valent.jpg"
-        },
-        "serine-avagyan": {
-            "name": "Serine Avagyan",
-            "affiliation": "University of California San Francisco",
-            "bio": "I am a physician-scientist studying genetic predisposition to early-onset blood cancers. My research training is in hematopoiesis, focusing on blood stem cell biology in mouse hematopoiesis during my PhD (Mount Sinai School of Medicine, New York) and residency (Children's hospital of New York Presbyterian, Columbia University, New York) training, and zebrafish model of clonal hematopoiesis during my postdoctoral training after clinical fellowship (Boston Children's Hospital, Dana-Farber Cancer Institute, Boston). My lab focuses on understanding the effects of acquired mutations in the context of germline leukemia predisposition conditions like GATA2 deficiency, with a goal of studying clone-specific biology that could be targeted therapeutically. We use preclinical model of zebrafish and primary human cells to conduct our research through complementary approaches. My clinical focus is in pediatric stem cell transplantation and bone marrow failure syndromes with leukemia predisposition.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/serine-avagyan.jpg"
-        },
-        "stephanie-lee": {
-            "name": "Stephanie Lee",
-            "affiliation": "University of Toronto",
-            "bio": "Dr. Stephanie Lee received an MD from the University of British Columbia in Vancouver and completedInternal Medicine and Hematology residency at the University of Toronto. She then completed a fellowshipin the Acute Leukemia and Myeloproliferative Neoplasms Program at the Princess Margaret Cancer Centrein Toronto followed by a MSc degree in Epidemiology and Clinical Research at Stanford University. She iscurrently a hematologist at St. Michael's Hospital in Toronto and Assistant Professor at the University of Toronto.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/stephanie-lee.jpg"
-        },
-        "thanai-pongdee": {
-            "name": "Thanai Pongdee",
-            "affiliation": "Mayo Clinic, Rochester",
-            "bio": "Dr. Pongdee is an allergist/immunologist at Mayo Clinic in Rochester, Minnesota. He graduated from Duke University and received his medical degree from the University of Kentucky. He then completed an internal medicine/pediatrics residency at the University of Tennessee and allergy/immunology fellowship at Mayo Clinic. He serves as an Assistant Professor in the Division of Allergic Diseases with joint appointments in the Division of Hematology and Division of Epidemiology. He also serves as the research chair for the Division of Allergic Diseases and as co-director for the Population Health Research Program for the Mayo Clinic Health System. Dr. Pongdee's research interests include systemic mastocytosis and hypereosinophilic syndromes, and he has served as the principal investigator for several clinical trials. Beyond Mayo Clinic, Dr. Pongdee has held several national leadership positions including his current role on the Board of Directors for the American Academy of Allergy, Asthma and Immunology.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/thanai-pongdee.jpg"
-        },
-        "tracey-george": {
-            "name": "Tracy George",
-            "affiliation": "ARUP Laboratories / University of Utah",
-            "bio": "Dr. George is the Chief Scientific Officer and President of the Innovation Business Unit at ARUP Laboratories and a Professor of Pathology at the University of Utah School of Medicine. She completed her medical degree and pathology residency at the University of California San Francisco with hematopathology and surgical pathology fellowships at Stanford University. She is an expert in the pathology of systemic mastocytosis and has authored more than 200 publications. Dr. George is a cofounder of the American Initiative in Mast Cell Diseases (AIM) and currently serves as Secretary/ Treasurer of AIM.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/tracey-george.jpg"
-        },
-        "tsewang-tashi": {
-            "name": "Tsewang Tashi",
-            "affiliation": "University of Utah Huntsman Cancer Center",
-            "bio": "Dr. Tashi received his medical degree from Chang Gung University, School of Medicine in Taiwan, completed his residency from Creighton University, Nebraska and heme/onc fellowship from Huntsman Cancer Institute, University of Utah. His current clinical and research interest focuses on myeloid malignancies, primarily in Systemic Mastocytosis and Myeloproliferative neoplasms. He established and currently leads the Mastocytosis Center of Excellence at Huntsman Cancer Institute and has been PI on multiple clinical trials. He is also the lead hematologist at the George E. Whalen VA Medical Center in Salt Lake City, UT.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/tsewang-tashi.jpg"
         }
     }
 }

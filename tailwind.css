@@ -8,7 +8,7 @@
             table {
                 tbody {
                     tr {
-                        @apply hover:bg-cyan-50 border-0 border-b border-solid last:border-b-0;
+                        @apply hover:bg-cyan-800 border-0 border-b border-solid border-slate-500 last:border-b-0;
 
                         td {
                             @apply border-0;
@@ -23,7 +23,7 @@
         }
     }
     .modal {
-        @apply max-w-7xl;
+        @apply max-w-7xl bg-cyan-900;
 
         a.close-modal {
             @apply w-8 h-8 bg-cyan-500 rounded-full bg-blend-screen;

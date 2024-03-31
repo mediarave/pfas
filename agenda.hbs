@@ -1,12 +1,12 @@
 {{#each agenda}}
-<tr class="{{#if ../session}}bg-stone-100{{/if}}">
-    <td class="font-bold">{{time}}</td>
+<tr{{#if ../session}} class="bg-slate-100" {{/if}}>
+    <td class="font-bold text-lg">{{time}}</td>
     <td>
         {{#if presenters.length}}
-        <div class="presenters pb-1 border-0 border-b border-dashed border-slate-400">
+        <div class="presenters pb-1 border-0 border-b border-dashed border-slate-200">
             {{#each presenters}}
             {{#if this.affiliation}}
-            <div><b class="text-xl"><a class="presenter no-underline hover:border-0 hover:border-b-2 hover:border-dotted" href="#bio{{@../index}}-{{imageName this.name}}" rel="modal:open">{{this.name}}</a></b> - {{this.affiliation}}</div>
+            <div class="text-slate-300"><b class="text-xl"><a class="presenter text-cyan-400 no-underline hover:border-0 hover:border-b-2 hover:border-dotted" href="#bio{{@../index}}-{{imageName this.name}}" rel="modal:open">{{this.name}}</a></b> - {{this.affiliation}}</div>
             <div id="bio{{@../index}}-{{imageName this.name}}" class="modal">
                 <article class="profile container flex-col flex md:flex-row">
                     <aside class="flex-1 my-10 max-w-sm break-words">
@@ -17,7 +17,7 @@
                         </div>
                         {{/if}}
 
-                        <h4 class="font-bold text-2xl text-cyan-600 mt-4">{{this.name}}</h4>
+                        <h4 class="font-bold text-2xl text-cyan-400 mt-4">{{this.name}}</h4>
                         <h5 class="font-bold text-xl">{{this.affiliation}}</h5>
                     </aside>
 
@@ -27,10 +27,10 @@
 
             {{else}}
             {{#if (bio this @root.bios 'name')}}
-            <div>
+            <div class="text-slate-300">
                 <b class="text-xl">
                 {{#if (bio this @root.bios 'affiliation')}}
-                <a class="presenter no-underline hover:border-0 hover:border-b-2 hover:border-dotted"
+                <a class="presenter text-cyan-400 no-underline hover:border-0 hover:border-b-2 hover:border-dotted"
                     href="#bio{{@../index}}-{{imageName this}}"
                     rel="modal:open">{{bio this @root.bios "name"}}</a></b> - {{{bio this @root.bios "affiliation"}}}
                 {{else}}
@@ -47,7 +47,7 @@
                         </div>
                         {{/if}}
 
-                        <h4 class="font-bold text-2xl text-cyan-600 mt-4">{{bio this @root.bios 'name'}}</h4>
+                        <h4 class="font-bold text-2xl text-cyan-400 mt-4">{{bio this @root.bios 'name'}}</h4>
                         <h5 class="font-bold text-xl">{{bio this @root.bios 'affiliation'}}</h5>
                     </aside>
 
@@ -59,12 +59,12 @@
             {{/each}}
         </div>
         {{/if}}
-        <div class="text-cyan-600 text-lg {{#if presenters.length}}mt-4{{else}}font-bold{{/if}}">
+        <div class="text-cyan-100 text-lg {{#if presenters.length}}mt-4{{else}}font-bold{{/if}}">
             {{event}}
         </div>
     </td>
-</tr>
-{{/each}}
-<tr>
-    <td colspan="2"></td>
-</tr>
+    </tr>
+    {{/each}}
+    <tr>
+        <td colspan="2"></td>
+    </tr>
