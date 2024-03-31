@@ -3,19 +3,23 @@
     "schedule": [
         {
             "day": "Sunday June 9, 2024",
+            "focus": "Pre-Conference Events",
             "agenda": [
                 {
-                    "time": "2:00 - 5:00",
-                    "event": "Toxic Tours"
+                    "time": "2:00 - 6:00",
+                    "event": "Toxic Tour-Detroit 48217 zip code"
                 },
                 {
                     "time": "7:00 - 9:00",
-                    "event": "Meet and Greet"
+                    "event": "Pre-conference reception",
+                    "presenters": ["rob-bilott"],
+                    "description": "Presentation and book signing"
                 }
             ]
         },
         {
-            "day": "Day 1: Monday June 10, 2024",
+            "day": "Monday June 10, 2024",
+            "focus": "Beyond the Tap: How we got here",
             "agenda": [
                 {
                     "time": "7:15",
@@ -37,7 +41,6 @@
                 }
             ],
 
-            // 18:30		Conference Dinner (Registration Required)
             "dinner": [
                 {
                     "time": "18:30",
@@ -46,7 +49,8 @@
             ]
         },
         {
-            "day": "Day 2: Tuesday June 11, 2024",
+            "day": "Tuesday June 11, 2024",
+            "focus": "Beyond the Tap: Everyone's Health matters",
             "agenda": [
                 {
                     "time": "7:15",
@@ -55,7 +59,8 @@
             ]
         },
         {
-            "day": "Day 3: Wednesday June 12, 2024",
+            "day": "Wednesday June 12, 2024",
+            "focus": "Beyond the Tap: Moving Forward",
             "agenda": [
                 {
                     "time": "7:15",
@@ -111,6 +116,12 @@
             "affiliation": "National Institutes of Health",
             "bio": "<p>Dr. Carter is a senior research clinician in the Laboratory of Allergic Diseases at the National Institutes of Health (NIH). She is board-certified in Allergy/Immunology and Pediatrics. Dr. Carter’s current focus of study is based on clinical protocols in anaphylaxis (idiopathic and antigen-induced) and pediatric mastocytosis. These protocols involves patient recruitment, inpatient and outpatient care responsibilities, teaching rounds and lectures for the ward team, allergic-disease focused lectures for nursing, critical care medicine, dermatology, and hematology, attending duties for the A&I training program, bench research, interfacing with regulatory agencies and a pharmaceutical company for a drug trial, collaborative relationships with University faculty, data analysis and manuscript preparation and presentation of data at scientific meetings.</p> <p>She has been consistently invited to present her research at the American Academy of Allergy, Asthma and Immunology (AAAAI), European Competence Network for Mastocytosis and European Academy of Allergy and Clinical Immunology annual meetings. She is considered an international expert on pediatric mastocytosis and frequently consulted regarding management. Dr. Carter was instrumental in establishing a pediatric-focused mastocytosis referral center at the NIH.</p> <p>She has served in numerous roles for the AAAAI including Board of Directors (2016-2020), Chair (2015-2017) and Vice Chair of the Mast Cell Disorders Committee; member, Committee for the Underserved. She is an member of the Editorial Board for The J Allergy Clin Immunol: Pract (2020-2025). For the National Medical Association, she has acted as a consultant on the Consensus Panel on Asthma in the African American Community and is a member of the Allergy Division. She is a member of the steering committee for the American Initiative in Mast Cell Diseases (AIM). Dr. Carter is a mentor for the NIAID post-baccalaureate and the Intramural NIAID Research Opportunities (INRO) committee.</p>",
             "photo": "https://aimcd.net/wp-content/uploads/2022/01/Melody-Carter.jpg"
+        },
+        "rob-bilott": {
+            "name": "Rob Bilott",
+            "affiliation": "Taft Stettinius & Hollister LLP",
+            "bio": "Rob Bilott is a partner at Taft Stettinius & Hollister LLP in Cincinnati, Ohio. He represents a diverse range of clients on a wide variety of matters involving federal, state and local environmental laws. Rob has successfully represented a number of clients in complex environmental litigation matters and is currently involved in litigating cases related to PFAS chemicals. He is the author of Exposure: Poisoned Water, Corporate Greed, and One Lawyer's Twenty-Year Battle Against DuPont.",
+            "photo": "https://media.taftlaw.com/wp-content/uploads/2023/07/20100653/Bilott_Robert_Landing.jpg"
         }
     }
 }

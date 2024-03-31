@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="text-sm sm:text-base">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference Layouts</title>
+    <title>Conference Schedule Layout</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.js" integrity="sha512-ztxZscxb55lKL+xmWGZEbBHekIzy+1qYKHGZTWZYH1GUwxy0hiA18lW6ORIMj4DHRgvmP/qGcvqwEyFFV7OYVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -26,6 +26,7 @@
         <p>
             The technical program is under development by the organizing committee, which uses community feedback to determine sessions and invite speakers. Join our mailing list to receive updates.
         </p>
+        <p>All events at the Michigan League unless otherwise noted. Field trips will depart from the Michigan League.</p>
     </header>
 
     <main class="schedule relative">
@@ -37,22 +38,48 @@
 
         <summary class="relative p-10">
             <section>
-                <h2 class="text-2xl uppercase font-bold text-cyan-200 border-0 border-b-8 border-solid border-cyan-400">Sunday June 9, 2024</h2>
+                <header class="text-cyan-200 border-0 border-b-4 border-solid border-cyan-400">
+                    <h2 class="uppercase text-4xl font-bold mb-0">Sunday June 9, 2024</h2>
+                    <h3 class="text-xl text-cyan-400 m-0">Pre-Conference Events</h3>
+                </header>
                 <table class="border-collapse w-full text-sm border-0">
                     <tbody>
                         <tr>
-                            <td class="font-bold text-lg">2:00 - 5:00</td>
+                            <td class="font-bold text-lg">2:00 - 6:00</td>
                             <td>
                                 <div class="text-cyan-100 text-lg font-bold">
-                                    Toxic Tours
+                                    Toxic Tour-Detroit 48217 zip code
                                 </div>
                             </td>
                             </tr>
                         <tr>
                             <td class="font-bold text-lg">7:00 - 9:00</td>
                             <td>
-                                <div class="text-cyan-100 text-lg font-bold">
-                                    Meet and Greet
+                                <div class="presenters pb-1 border-0 border-b border-dashed border-slate-200">
+                                    <div class="text-slate-300">
+                                        <b class="text-xl">
+                                        <a class="presenter text-cyan-400 no-underline hover:border-0 hover:border-b-2 hover:border-dotted"
+                                            href="#bio1-rob-bilott"
+                                            rel="modal:open">Rob Bilott</a></b> - Taft Stettinius & Hollister LLP
+                                    </div>
+                                    <div id="bio1-rob-bilott" class="modal">
+                                        <article class="profile flex-col flex gap-5 lg:flex-row">
+                                            <aside class="flex-1 my-5 max-w-sm break-words">
+                        
+                                                <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
+                                                    <img class="w-full block relative -z-20" src="https://media.taftlaw.com/wp-content/uploads/2023/07/20100653/Bilott_Robert_Landing.jpg" alt="Rob Bilott">
+                                                </div>
+                        
+                                                <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Rob Bilott</h4>
+                                                <h5 class="font-bold text-xl m-0">Taft Stettinius &amp; Hollister LLP</h5>
+                                            </aside>
+                        
+                                            <div class="description flex-1 lg:p-5 font-semibold">Rob Bilott is a partner at Taft Stettinius & Hollister LLP in Cincinnati, Ohio. He represents a diverse range of clients on a wide variety of matters involving federal, state and local environmental laws. Rob has successfully represented a number of clients in complex environmental litigation matters and is currently involved in litigating cases related to PFAS chemicals. He is the author of Exposure: Poisoned Water, Corporate Greed, and One Lawyer's Twenty-Year Battle Against DuPont.</div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="text-cyan-100 text-lg mt-4">
+                                    Pre-conference reception<span class="text-sm text-slate-300"> (Presentation and book signing)</span>
                                 </div>
                             </td>
                             </tr>
@@ -65,7 +92,10 @@
             <br />
 
             <section>
-                <h2 class="text-2xl uppercase font-bold text-cyan-200 border-0 border-b-8 border-solid border-cyan-400">Day 1: Monday June 10, 2024</h2>
+                <header class="text-cyan-200 border-0 border-b-4 border-solid border-cyan-400">
+                    <h2 class="uppercase text-4xl font-bold mb-0">Monday June 10, 2024</h2>
+                    <h3 class="text-xl text-cyan-400 m-0">Beyond the Tap: How we got here</h3>
+                </header>
                 <table class="border-collapse w-full text-sm border-0">
                     <tbody>
                         <tr>
@@ -94,8 +124,8 @@
                                                     <img class="w-full block relative -z-20" src="https://aimcd.net/wp-content/uploads/2022/09/Castells.jpg" alt="Mariana Castells">
                                                 </div>
                         
-                                                <h4 class="font-bold text-2xl text-cyan-400 mt-4">Mariana Castells</h4>
-                                                <h5 class="font-bold text-xl">Brigham and Women&#x27;s Hospital, Harvard University</h5>
+                                                <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Mariana Castells</h4>
+                                                <h5 class="font-bold text-xl m-0">Brigham and Women&#x27;s Hospital, Harvard University</h5>
                                             </aside>
                         
                                             <div class="description flex-1 lg:p-5 font-semibold">Mariana Castells, M.D., Ph.D. is a clinician-scientist with over 30 years of experience in allergy and immunology. Additionally, she is a Professor of Medicine at Harvard Medical School with over 200 publications.</div>
@@ -125,8 +155,8 @@
                                                     <img class="w-full block relative -z-20" src="https://aimcd.net/wp-content/uploads/2022/01/Melody-Carter.jpg" alt="Melody Carter">
                                                 </div>
                         
-                                                <h4 class="font-bold text-2xl text-cyan-400 mt-4">Melody Carter</h4>
-                                                <h5 class="font-bold text-xl">National Institutes of Health</h5>
+                                                <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Melody Carter</h4>
+                                                <h5 class="font-bold text-xl m-0">National Institutes of Health</h5>
                                             </aside>
                         
                                             <div class="description flex-1 lg:p-5 font-semibold"><p>Dr. Carter is a senior research clinician in the Laboratory of Allergic Diseases at the National Institutes of Health (NIH). She is board-certified in Allergy/Immunology and Pediatrics. Dr. Carter’s current focus of study is based on clinical protocols in anaphylaxis (idiopathic and antigen-induced) and pediatric mastocytosis. These protocols involves patient recruitment, inpatient and outpatient care responsibilities, teaching rounds and lectures for the ward team, allergic-disease focused lectures for nursing, critical care medicine, dermatology, and hematology, attending duties for the A&I training program, bench research, interfacing with regulatory agencies and a pharmaceutical company for a drug trial, collaborative relationships with University faculty, data analysis and manuscript preparation and presentation of data at scientific meetings.</p> <p>She has been consistently invited to present her research at the American Academy of Allergy, Asthma and Immunology (AAAAI), European Competence Network for Mastocytosis and European Academy of Allergy and Clinical Immunology annual meetings. She is considered an international expert on pediatric mastocytosis and frequently consulted regarding management. Dr. Carter was instrumental in establishing a pediatric-focused mastocytosis referral center at the NIH.</p> <p>She has served in numerous roles for the AAAAI including Board of Directors (2016-2020), Chair (2015-2017) and Vice Chair of the Mast Cell Disorders Committee; member, Committee for the Underserved. She is an member of the Editorial Board for The J Allergy Clin Immunol: Pract (2020-2025). For the National Medical Association, she has acted as a consultant on the Consensus Panel on Asthma in the African American Community and is a member of the Allergy Division. She is a member of the steering committee for the American Initiative in Mast Cell Diseases (AIM). Dr. Carter is a mentor for the NIAID post-baccalaureate and the Intramural NIAID Research Opportunities (INRO) committee.</p></div>
@@ -166,7 +196,10 @@
             <br />
 
             <section>
-                <h2 class="text-2xl uppercase font-bold text-cyan-200 border-0 border-b-8 border-solid border-cyan-400">Day 2: Tuesday June 11, 2024</h2>
+                <header class="text-cyan-200 border-0 border-b-4 border-solid border-cyan-400">
+                    <h2 class="uppercase text-4xl font-bold mb-0">Tuesday June 11, 2024</h2>
+                    <h3 class="text-xl text-cyan-400 m-0">Beyond the Tap: Everyone&#x27;s Health matters</h3>
+                </header>
                 <table class="border-collapse w-full text-sm border-0">
                     <tbody>
                         <tr>
@@ -186,7 +219,10 @@
             <br />
 
             <section>
-                <h2 class="text-2xl uppercase font-bold text-cyan-200 border-0 border-b-8 border-solid border-cyan-400">Day 3: Wednesday June 12, 2024</h2>
+                <header class="text-cyan-200 border-0 border-b-4 border-solid border-cyan-400">
+                    <h2 class="uppercase text-4xl font-bold mb-0">Wednesday June 12, 2024</h2>
+                    <h3 class="text-xl text-cyan-400 m-0">Beyond the Tap: Moving Forward</h3>
+                </header>
                 <table class="border-collapse w-full text-sm border-0">
                     <tbody>
                         <tr>

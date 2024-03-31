@@ -9,7 +9,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                teal: colors.teal,
+                cyan: colors.cyan,
             },
             maxWidth: {
                 xxs: '16rem',

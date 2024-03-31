@@ -12,13 +12,13 @@
                     <aside class="flex-1 my-10 max-w-sm break-words">
 
                         {{#if this.photo}}
-                        <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
+                        <div class="photo border-cyan-600 border-2 border-solid shadow-lg">
                             <img class="w-full block relative -z-20" src="{{this.photo}}" alt="{{this.name}}">
                         </div>
                         {{/if}}
 
                         <h4 class="font-bold text-2xl text-cyan-400 mt-4">{{this.name}}</h4>
-                        <h5 class="font-bold text-xl">{{this.affiliation}}</h5>
+                        <h5 class="font-bold text-xl p-0">{{this.affiliation}}</h5>
                     </aside>
 
                     <div class="description flex-1 md:p-10 font-semibold">{{this.bio}}</div>
@@ -47,8 +47,8 @@
                         </div>
                         {{/if}}
 
-                        <h4 class="font-bold text-2xl text-cyan-400 mt-4">{{bio this @root.bios 'name'}}</h4>
-                        <h5 class="font-bold text-xl">{{bio this @root.bios 'affiliation'}}</h5>
+                        <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">{{bio this @root.bios 'name'}}</h4>
+                        <h5 class="font-bold text-xl m-0">{{bio this @root.bios 'affiliation'}}</h5>
                     </aside>
 
                     <div class="description flex-1 lg:p-5 font-semibold">{{{bio this @root.bios 'bio'}}}</div>
@@ -60,7 +60,7 @@
         </div>
         {{/if}}
         <div class="text-cyan-100 text-lg {{#if presenters.length}}mt-4{{else}}font-bold{{/if}}">
-            {{event}}
+            {{event}}{{#if description}}<span class="text-sm text-slate-300"> ({{description}})</span>{{/if}}
         </div>
     </td>
     </tr>

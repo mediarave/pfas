@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="text-sm sm:text-base">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference Layouts</title>
+    <title>Conference Schedule Layout</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.2/jquery.modal.min.js" integrity="sha512-ztxZscxb55lKL+xmWGZEbBHekIzy+1qYKHGZTWZYH1GUwxy0hiA18lW6ORIMj4DHRgvmP/qGcvqwEyFFV7OYVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -26,6 +26,7 @@
         <p>
             The technical program is under development by the organizing committee, which uses community feedback to determine sessions and invite speakers. Join our mailing list to receive updates.
         </p>
+        <p>All events at the Michigan League unless otherwise noted. Field trips will depart from the Michigan League.</p>
     </header>
 
     <main class="schedule relative">
@@ -38,7 +39,10 @@
         <summary class="relative p-10">
             {{#each schedule}}
             <section>
-                <h2 class="text-2xl uppercase font-bold text-cyan-200 border-0 border-b-8 border-solid border-cyan-400">{{day}}</h2>
+                <header class="text-cyan-200 border-0 border-b-4 border-solid border-cyan-400">
+                    <h2 class="uppercase text-4xl font-bold mb-0">{{day}}</h2>
+                    <h3 class="text-xl text-cyan-400 m-0">{{focus}}</h3>
+                </header>
                 <table class="border-collapse w-full text-sm border-0">
                     <tbody>
                         {{> agenda }}
