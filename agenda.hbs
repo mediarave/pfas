@@ -1,7 +1,7 @@
 {{#each agenda}}
 <tr{{#if ../session}} class="bg-slate-100" {{/if}}>
     <td class="font-bold text-lg">{{time}}</td>
-    <td>
+    <td class="inline-block">
         {{#if presenters.length}}
         <div class="presenters pb-1 border-0 border-b border-dashed border-slate-200">
             {{#each presenters}}
@@ -65,6 +65,3 @@
     </td>
     </tr>
     {{/each}}
-    <tr>
-        <td colspan="2"></td>
-    </tr>

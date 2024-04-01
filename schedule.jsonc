@@ -2,6 +2,12 @@
     "title": "PFAS",
     "schedule": [
         {
+            //             SUNDAY, JUNE 9		Pre-Conference Events
+            // 2:00-6:00 pm	Field Trip	Toxic Tour-Detroit 48217 zip code
+            // 7:00-9:00 pm	Welcome Reception	Pre-conference reception
+            //    Presentation and book signing with Rob Bilott , Taft Law Firm and
+            //      author
+
             "day": "Sunday June 9, 2024",
             "focus": "Pre-Conference Events",
             "agenda": [
@@ -18,110 +24,434 @@
             ]
         },
         {
+            //             MONDAY, JUNE 10		Beyond the Tap:  How we got here
+            // 8:00-8:45 am	Breakfast	Breakfast and Registration
+            // 8:45-9:00 am	Opening remarks	Welcome
+            //  Santa Ono, University of Michigan
+            //  2024 National PFAS Conference Co-Chairs
+            //    Courtney Carignan, Michigan State University
+            //    Robb Kerr, Great Lakes PFAS Action Network, Wolfpack
+            //    Sandy Wynn-Stelt, Great Lakes PFAS Action Network
+            // 9:00-9:30 am	Keynote	Keynote Presentation
+            //   Debbie Dingell, U.S. Representative
+            // 9:30-10:40 am	Session1	The Michigan Story
+            //   Bob Delaney, PFAS Alliance
+            //   Garret Ellison, MLive
+            //   Tony Spaniola, Great Lakes PFAS Action Network
+            //   Sandy Wynn-Stelt, Great Lakes PFAS Action Network
+            // 10:40-11:00 am	Break
+            // 11:00 am-12:10 pm	Session 2	PFAS Policy initiatives: Federal and State Responses
+            //   Anna Reade, The National Resources Defense Council
+            //   Phil Roos, Environment, Great Lakes, and Energy – State of Michigan
+            //   Dana   Strande, Community Member
+            // 12:10-1:30 pm	Lunch
+            // 1:30-2:00 pm	KEYNOTE:	Whole of Government approach moving forward
+            //   Radhika Fox, North Star Strategy
+            // 2:00-3:10 pm	Session 3	Tools for Equitable Research Partnerships with the Association for Advancing Participatory Science
+            //   Janice Hunter, West Oakland Indicator Project
+            //   Margaret Gordon, West Oakland Indicator Project
+            //  Linda Robles, Community Member
+            // 3:10-3:30 pm	Break
+            // 3:30-4:40 pm	Session 4	Dietary Considerations of PFAS
+            //   Jason Grostic, Great Lakes PFAS Action Network
+            //   Bill Pluecker, Maine Organic Farmers Association
+            // 4:40-6:10 pm	Poster Sessions	Poster Session and Strolling Dinner
+            // 5:00 pm	Field Trip	Toxic tour - Kayak trip down Huron River
+
             "day": "Monday June 10, 2024",
             "focus": "Beyond the Tap: How we got here",
             "agenda": [
                 {
-                    "time": "7:15",
-                    "event": "Registration & Breakfast"
+                    "time": "8:00 - 8:45",
+                    "event": "Breakfast and Registration"
                 },
                 {
-                    "time": "8:00",
-                    "presenters": ["mariana-castells", "jason-gotlib"],
-                    "event": "Welcome"
+                    "time": "8:45 - 9:00",
+                    "event": "Welcome",
+                    "presenters": ["santa-ono", "courtney-carignan", "robb-kerr", "sandy-wynn-stelt"]
                 },
                 {
-                    "time": "8:05",
-                    "presenters": ["melody-carter"],
-                    "event": "K. Frank Austen Lifetime Achievement Award presented to Dean Metcalfe"
+                    "time": "9:00 - 9:30",
+                    "event": "Keynote Presentation",
+                    "presenters": ["debbie-dingell"]
                 },
                 {
-                    "time": "8:55",
-                    "event": "BREAK"
-                }
-            ],
-
-            "dinner": [
+                    "time": "9:30 - 10:40",
+                    "event": "The Michigan Story",
+                    "presenters": ["bob-delaney", "garret-ellison", "tony-spaniola", "sandy-wynn-stelt"]
+                },
                 {
-                    "time": "18:30",
-                    "event": "Conference Dinner (Registration Required)"
+                    "time": "10:40 - 11:00",
+                    "event": "Break"
+                },
+                {
+                    "time": "11:00 - 12:10",
+                    "event": "PFAS Policy initiatives: Federal and State Responses",
+                    "presenters": ["anna-reade", "phil-roos", "dana-strande"]
+                },
+                {
+                    "time": "12:10 - 1:30",
+                    "event": "Lunch"
+                },
+                {
+                    "time": "1:30 - 2:00",
+                    "event": "Keynote: Whole of Government approach moving forward",
+                    "presenters": ["radhika-fox"]
+                },
+                {
+                    "time": "2:00 - 3:10",
+                    "event": "Tools for Equitable Research Partnerships with the Association for Advancing Participatory Science",
+                    "presenters": ["janice-hunter", "margaret-gordon", "linda-robles"]
+                },
+                {
+                    "time": "3:10 - 3:30",
+                    "event": "Break"
+                },
+                {
+                    "time": "3:30 - 4:40",
+                    "event": "Dietary Considerations of PFAS",
+                    "presenters": ["jason-grostic", "bill-pluecker"]
+                },
+                {
+                    "time": "4:40 - 6:10",
+                    "event": "Poster Session and Strolling Dinner"
+                },
+                {
+                    "time": "5:00",
+                    "event": "Toxic tour - Kayak trip down Huron River"
                 }
             ]
         },
         {
+            //             TUESDAY, JUNE 11		Beyond the Tap:  Everyone’s Health matters
+            // 8:00-8:45 am	Breakfast	Networking Breakfast
+            // 9:00-9:30 am	KEYNOTE:	Keynote Presentation
+            // Rachel Rogers, Agency for Toxic Substances and Disease Registry
+            // 9:30-10:40 am	Session1	New Discoveries in PFAS Health Effects
+            //   Jesse Goodrich, University of South Carolina
+            //   Tobyn McNaughton, Great Lakes PFAS Action Network
+            //   Brittney Ricard, North Carolina State University
+            // 10:40-11:00 am	Break
+            // 11:00 am-12:10 pm	Session 2	Guidance for Clinicians
+            //   Courtney Carignan, Michigan State University
+            //   Kevin Elliott, Michigan State University
+            //   Kyle Horton, On Your Side Action
+            // 12:10-1:30 pm	Lunch
+            // 1:30-2:00 pm	KEYNOTE:	Special Rapporteur on Toxics and Human Rights
+            // Marcos A. Orellana, United Nations
+            // 2:00-3:10 pm	Session 3	Exploring Business-related Human Rights Violations in the United States
+            //   Lida Chatzi, Southern California Environmental Health Sciences Center
+            //   Emily Donovan, Clean Cape Fear
+            //   Scott Faber, Environmental Working Group
+            // 3:10-3:30 pm	Break
+            // 3:30-4:40 pm	Session 4	Worker Rights and Protections
+            //   Kris Hanson, formerly 3M
+            //   Neil McMillan, International Association of Fire Fighters
+            //   Denise Trabbic-Pointer, formerly DuPont
+            //   Tim Whitehouse, Public Employees for Environmental Responsibility
+            // 4:40-6:10 pm	Poster Sessions	Poster Session and Strolling Dinner
+            // 5:00 pm	**Field Trip	RAIN DATE:  Toxic tour-Kayak trip down Huron River
+
             "day": "Tuesday June 11, 2024",
             "focus": "Beyond the Tap: Everyone's Health matters",
             "agenda": [
                 {
-                    "time": "7:15",
-                    "event": "Breakfast"
+                    "time": "8:00 - 8:45",
+                    "event": "Networking Breakfast"
+                },
+                {
+                    "time": "9:00 - 9:30",
+                    "event": "Keynote Presentation",
+                    "presenters": ["rachel-rogers"]
+                },
+                {
+                    "time": "9:30 - 10:40",
+                    "event": "New Discoveries in PFAS Health Effects",
+                    "presenters": ["jesse-goodrich", "tobyn-mcnaughton", "brittney-ricard"]
+                },
+                {
+                    "time": "10:40 - 11:00",
+                    "event": "Break"
+                },
+                {
+                    "time": "11:00 - 12:10",
+                    "event": "Guidance for Clinicians",
+                    "presenters": ["courtney-carignan", "kevin-elliott", "kyle-horton"]
+                },
+                {
+                    "time": "12:10 - 1:30",
+                    "event": "Lunch"
+                },
+                {
+                    "time": "1:30 - 2:00",
+                    "event": "Keynote: Special Rapporteur on Toxics and Human Rights",
+                    "presenters": ["marcos-a-orellana"]
+                },
+                {
+                    "time": "2:00 - 3:10",
+                    "event": "Exploring Business-related Human Rights Violations in the United States",
+                    "presenters": ["lida-chatzi", "emily-donovan", "scott-faber"]
+                },
+                {
+                    "time": "3:10 - 3:30",
+                    "event": "Break"
+                },
+                {
+                    "time": "3:30 - 4:40",
+                    "event": "Worker Rights and Protections",
+                    "presenters": ["kris-hanson", "neil-mcmillan", "denise-trabbic-pointer", "tim-whitehouse"]
+                },
+                {
+                    "time": "4:40 - 6:10",
+                    "event": "Poster Session and Strolling Dinner"
+                },
+                {
+                    "time": "5:00",
+                    "event": "RAIN DATE: Toxic tour-Kayak trip down Huron River"
                 }
             ]
         },
         {
+            //             WEDNESDAY, JUNE 12		Beyond the Tap: Moving Forward
+            // 8:00-8:45 am	Breakfast	Networking Breakfast
+            // 9:00-9:30 am	KEYNOTE:	PFAS Chemistry Updates
+            // Mark Strynar, Environmental Protection Agency
+            // 9:30-10:40 am	Session1	Remediation
+            //   Bill Jackson, Kelley Drye & Warren, LLP
+            //   Detlef Knappe, North Carolina State University
+            //   Joanne Stanton, Buxmont Coalition for Safer Water
+            // 10:40-11:00 am	Break
+            // 11:00 am -12:10 pm	Session 2	Sustainability Challenges and Safe Alternatives
+            //   Juliane Gluege, ETH Zurich
+            //   Jennifer Guelfo, Texas Tech University
+            //   Mark Rossi, Clean Production Action
+            //   Lenny Siegel, Center for Public Environmental Oversight
+            // 12:10-1:30 pm	Lunch
+            // 1:30-2:00 pm		Keynote Presentation
+            // TBD
+            // 2:00-2:30 pm		Awards, Closing Message and Moving Forward
+            // 2:30-4:30 pm		Workshops
+
             "day": "Wednesday June 12, 2024",
             "focus": "Beyond the Tap: Moving Forward",
             "agenda": [
                 {
-                    "time": "7:15",
-                    "event": "Breakfast"
+                    "time": "8:00 - 8:45",
+                    "event": "Networking Breakfast"
+                },
+                {
+                    "time": "9:00 - 9:30",
+                    "event": "Keynote: PFAS Chemistry Updates",
+                    "presenters": ["mark-strynar"]
+                },
+                {
+                    "time": "9:30 - 10:40",
+                    "event": "Remediation",
+                    "presenters": ["bill-jackson", "detlef-knappe", "joanne-stanton"]
+                },
+                {
+                    "time": "10:40 - 11:00",
+                    "event": "Break"
+                },
+                {
+                    "time": "11:00 - 12:10",
+                    "event": "Sustainability Challenges and Safe Alternatives",
+                    "presenters": ["juliane-gluege", "jennifer-guelfo", "mark-rossi", "lenny-siegel"]
+                },
+                {
+                    "time": "12:10 - 1:30",
+                    "event": "Lunch"
+                },
+                {
+                    "time": "1:30 - 2:00",
+                    "event": "Keynote Presentation"
+                },
+                {
+                    "time": "2:00 - 2:30",
+                    "event": "Awards, Closing Message and Moving Forward"
+                },
+                {
+                    "time": "2:30 - 4:30",
+                    "event": "Workshops"
                 }
             ]
         }
     ],
     "bios": {
-        "adrian-piliponsky": {
-            "name": "Adrian M. Piliponsky",
-            "affiliation": "Seattle Children's Research Institute",
-            "bio": "“I am a principal investigator at the Center for Immunity and Immunotherapies at the Seattle Children's Research Institute, Professor of Pediatrics, Laboratory Medicine, and Pathology at the University of Washington School of Medicine. My independent laboratory was established over twelve years ago and aims to dissect mast cell biology to understand mast cell contribution to health and disease and explore new approaches for its immunomodulation”."
-        },
-        "andreas-reiter": {
-            "name": "Andreas Reiter",
-            "affiliation": "University of Mannheim"
-        },
-        "cecilia-arana-yi": {
-            "name": "Cecilia Arana Yi, Phoenix",
-            "affiliation": "Mayo Clinic"
-        },
-        "celalettin-ustun": {
-            "name": "Celalettin Ustun",
-            "affiliation": "Rush University"
-        },
-        "irina-maric": {
-            "name": "Irina Maric",
-            "affiliation": "National Institutes of Health",
-            "bio": "Dr. Irina Maric is a Senior Research Physician and Attending Hematopathologist within the Hematology Service, Department of Laboratory Medicine at the NIH Clinical Center, Bethesda, MD. She is a Director of the Myeloid Core Laboratory, specializing in molecular and flow cytometric assays for detection of rare myeloproliferative diseases.  Dr. Maric has a special research interest in rare chronic myeloproliferative diseases, particularly systemic mastocytosis and chronic eosinophilic leukemia. She has published over 150 peer-reviewed papers and four book chapters.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/irina-maric.jpg"
-        },
-        "mariana-castells": {
-            "name": "Mariana Castells",
-            "affiliation": "Brigham and Women's Hospital, Harvard University",
-            "bio": "Mariana Castells, M.D., Ph.D. is a clinician-scientist with over 30 years of experience in allergy and immunology. Additionally, she is a Professor of Medicine at Harvard Medical School with over 200 publications.",
-            "photo": "https://aimcd.net/wp-content/uploads/2022/09/Castells.jpg"
-        },
-        "matthew-giannetti": {
-            "name": "Matthew Giannetti",
-            "affiliation": "Brigham and Women's Hospital, Harvard University",
-            "bio": "Matthew Giannetti is an assistant professor of medicine at Harvard Medical School and a faculty member of the division of allergy and clinical immunology at the Brigham and Women's Hospital.  He is a member of the Brigham and Women's Mastocytosis center of excellence, with a clinical & translational interest in mastocytosis, hereditary alpha-tryptasemia, and mast-cell activation disorders.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/matthew-giannetti.jpg"
-        },
-        "matthew-hamilton": {
-            "name": "Matthew Hamilton",
-            "affiliation": "Brigham and Women's Hospital, Harvard University",
-            "bio": "Matthew Hamilton, M.D., is an associate physician at the Brigham and Women's Hospital and an Assistant Professor of Medicine at Harvard Medical School. He is the lead gastroenterologist at the Brigham Mastocytosis Center and has authored numerous original research  articles and reviews on the GI manifestations of mast cell disorders.",
-            "photo": "https://aimcd.net/wp-content/uploads/2024/03/matthew-hamilton.jpg"
-        },
-        "melody-carter": {
-            "name": "Melody Carter",
-            "affiliation": "National Institutes of Health",
-            "bio": "<p>Dr. Carter is a senior research clinician in the Laboratory of Allergic Diseases at the National Institutes of Health (NIH). She is board-certified in Allergy/Immunology and Pediatrics. Dr. Carter’s current focus of study is based on clinical protocols in anaphylaxis (idiopathic and antigen-induced) and pediatric mastocytosis. These protocols involves patient recruitment, inpatient and outpatient care responsibilities, teaching rounds and lectures for the ward team, allergic-disease focused lectures for nursing, critical care medicine, dermatology, and hematology, attending duties for the A&I training program, bench research, interfacing with regulatory agencies and a pharmaceutical company for a drug trial, collaborative relationships with University faculty, data analysis and manuscript preparation and presentation of data at scientific meetings.</p> <p>She has been consistently invited to present her research at the American Academy of Allergy, Asthma and Immunology (AAAAI), European Competence Network for Mastocytosis and European Academy of Allergy and Clinical Immunology annual meetings. She is considered an international expert on pediatric mastocytosis and frequently consulted regarding management. Dr. Carter was instrumental in establishing a pediatric-focused mastocytosis referral center at the NIH.</p> <p>She has served in numerous roles for the AAAAI including Board of Directors (2016-2020), Chair (2015-2017) and Vice Chair of the Mast Cell Disorders Committee; member, Committee for the Underserved. She is an member of the Editorial Board for The J Allergy Clin Immunol: Pract (2020-2025). For the National Medical Association, she has acted as a consultant on the Consensus Panel on Asthma in the African American Community and is a member of the Allergy Division. She is a member of the steering committee for the American Initiative in Mast Cell Diseases (AIM). Dr. Carter is a mentor for the NIAID post-baccalaureate and the Intramural NIAID Research Opportunities (INRO) committee.</p>",
-            "photo": "https://aimcd.net/wp-content/uploads/2022/01/Melody-Carter.jpg"
-        },
         "rob-bilott": {
             "name": "Rob Bilott",
             "affiliation": "Taft Stettinius & Hollister LLP",
             "bio": "Rob Bilott is a partner at Taft Stettinius & Hollister LLP in Cincinnati, Ohio. He represents a diverse range of clients on a wide variety of matters involving federal, state and local environmental laws. Rob has successfully represented a number of clients in complex environmental litigation matters and is currently involved in litigating cases related to PFAS chemicals. He is the author of Exposure: Poisoned Water, Corporate Greed, and One Lawyer's Twenty-Year Battle Against DuPont.",
             "photo": "https://media.taftlaw.com/wp-content/uploads/2023/07/20100653/Bilott_Robert_Landing.jpg"
+        },
+        "santa-ono": {
+            "name": "Santa Ono",
+            "affiliation": "University of Michigan",
+            "bio": "Santa Ono is the President of the University of Michigan. He is a distinguished scholar and researcher in the field of eye disease and has made significant contributions to the understanding of the molecular mechanisms of eye disease. He is a passionate advocate for higher education and has worked to promote diversity and inclusion on college campuses."
+        },
+        "courtney-carignan": {
+            "name": "Courtney Carignan",
+            "affiliation": "Michigan State University",
+            "bio": "Courtney Carignan is an Assistant Professor in the Department of Food Science and Human Nutrition at Michigan State University. She is a nutritional epidemiologist with a focus on environmental exposures and health outcomes. Her research focuses on the impact of environmental chemicals on human health, with a particular emphasis on per- and polyfluoroalkyl substances (PFAS).",
+            "photo": "https://static.wixstatic.com/media/ffaf03_acd4b445245b486ba430b71dd2fdbf88~mv2.jpg/v1/fit/w_400,h_400,q_90/ffaf03_acd4b445245b486ba430b71dd2fdbf88~mv2.jpg"
+        },
+        "robb-kerr": {
+            "name": "Robb Kerr",
+            "affiliation": "Great Lakes PFAS Action Network, Wolfpack",
+            "bio": "Robb Kerr is a member of the Great Lakes PFAS Action Network Wolfpack. He is a passionate advocate for clean water and has been working to raise awareness about PFAS contamination in the Great Lakes region. He is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals.",
+            "photo": "https://static.wixstatic.com/media/ffaf03_f822ce6bd5824c4cb3eea8e2c8451ecc~mv2.jpg/v1/fit/w_743,h_825,q_90/ffaf03_f822ce6bd5824c4cb3eea8e2c8451ecc~mv2.jpg"
+        },
+        "sandy-wynn-stelt": {
+            "name": "Sandy Wynn-Stelt",
+            "affiliation": "Great Lakes PFAS Action Network",
+            "bio": "Sandy Wynn-Stelt is a member of the Great Lakes PFAS Action Network. She has been working to raise awareness about PFAS contamination in the Great Lakes region and is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals. She is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.",
+            "photo": "https://static.wixstatic.com/media/ffaf03_022577a7113b4690b698f5791b4f25b7~mv2.jpeg/v1/fit/w_743,h_825,q_90/ffaf03_022577a7113b4690b698f5791b4f25b7~mv2.jpeg"
+        },
+        "debbie-dingell": {
+            "name": "Debbie Dingell",
+            "affiliation": "U.S. Representative"
+        },
+        "bob-delaney": {
+            "name": "Bob Delaney",
+            "affiliation": "PFAS Alliance"
+        },
+        "garret-ellison": {
+            "name": "Garret Ellison",
+            "affiliation": "MLive"
+        },
+        "tony-spaniola": {
+            "name": "Tony Spaniola",
+            "affiliation": "Great Lakes PFAS Action Network",
+            "bio": "Tony Spaniola is a member of the Great Lakes PFAS Action Network. He has been working to raise awareness about PFAS contamination in the Great Lakes region and is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals. He is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.",
+            "photo": "https://static.wixstatic.com/media/ffaf03_b1e452644d3a415eb4870ddb0c9a7be6~mv2.jpeg/v1/fit/w_175,h_226,q_90/ffaf03_b1e452644d3a415eb4870ddb0c9a7be6~mv2.jpeg"
+        },
+        "anna-reade": {
+            "name": "Anna Reade",
+            "affiliation": "The National Resources Defense Council"
+        },
+        "phil-roos": {
+            "name": "Phil Roos",
+            "affiliation": "Environment, Great Lakes, and Energy - State of Michigan"
+        },
+        "dana-strande": {
+            "name": "Dana Strande",
+            "affiliation": "Community Member"
+        },
+        "radhika-fox": {
+            "name": "Radhika Fox",
+            "affiliation": "North Star Strategy",
+            "bio": "Radhika Fox is the CEO of the US Water Alliance and Director of the Value of Water Campaign. She is a leading expert on water policy and has worked to promote sustainable water management practices. She is a passionate advocate for clean water and has been working to ensure that all communities have access to safe and affordable drinking water."
+        },
+        "janice-hunter": {
+            "name": "Janice Hunter",
+            "affiliation": "West Oakland Indicator Project"
+        },
+        "margaret-gordon": {
+            "name": "Margaret Gordon",
+            "affiliation": "West Oakland Indicator Project"
+        },
+        "linda-robles": {
+            "name": "Linda Robles",
+            "affiliation": "Community Member"
+        },
+        "jason-grostic": {
+            "name": "Jason Grostic",
+            "affiliation": "Great Lakes PFAS Action Network"
+        },
+        "bill-pluecker": {
+            "name": "Bill Pluecker",
+            "affiliation": "Maine Organic Farmers Association"
+        },
+
+        "rachel-rogers": {
+            "name": "Rachel Rogers",
+            "affiliation": "Agency for Toxic Substances and Disease Registry"
+        },
+        "jesse-goodrich": {
+            "name": "Jesse Goodrich",
+            "affiliation": "University of South Carolina"
+        },
+        "tobyn-mcnaughton": {
+            "name": "Tobyn McNaughton",
+            "affiliation": "Great Lakes PFAS Action Network"
+        },
+        "brittney-ricard": {
+            "name": "Brittney Ricard",
+            "affiliation": "North Carolina State University"
+        },
+        "kevin-elliott": {
+            "name": "Kevin Elliott",
+            "affiliation": "Michigan State University"
+        },
+        "kyle-horton": {
+            "name": "Kyle Horton",
+            "affiliation": "On Your Side Action"
+        },
+        "marcos-a-orellana": {
+            "name": "Marcos A. Orellana",
+            "affiliation": "United Nations"
+        },
+        "lida-chatzi": {
+            "name": "Lida Chatzi",
+            "affiliation": "Southern California Environmental Health Sciences Center"
+        },
+        "emily-donovan": {
+            "name": "Emily Donovan",
+            "affiliation": "Clean Cape Fear",
+            "bio": "Emily Donovan is a community organizer and activist who has been working to raise awareness about PFAS contamination in North Carolina. She is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.",
+            "photo": "https://static.wixstatic.com/media/ffaf03_c530ff318f484957897dd2c43ea935d4~mv2.jpg/v1/fit/w_743,h_825,q_90/ffaf03_c530ff318f484957897dd2c43ea935d4~mv2.jpg"
+        },
+        "scott-faber": {
+            "name": "Scott Faber",
+            "affiliation": "Environmental Working Group"
+        },
+        "kris-hanson": {
+            "name": "Kris Hanson",
+            "affiliation": "formerly 3M"
+        },
+        "neil-mcmillan": {
+            "name": "Neil McMillan",
+            "affiliation": "International Association of Fire Fighters"
+        },
+        "denise-trabbic-pointer": {
+            "name": "Denise Trabbic-Pointer",
+            "affiliation": "formerly DuPont"
+        },
+        "tim-whitehouse": {
+            "name": "Tim Whitehouse",
+            "affiliation": "Public Employees for Environmental Responsibility"
+        },
+        "mark-strynar": {
+            "name": "Mark Strynar",
+            "affiliation": "Environmental Protection Agency"
+        },
+        "bill-jackson": {
+            "name": "Bill Jackson",
+            "affiliation": "Kelley Drye & Warren, LLP"
+        },
+        "detlef-knappe": {
+            "name": "Detlef Knappe",
+            "affiliation": "North Carolina State University"
+        },
+        "joanne-stanton": {
+            "name": "Joanne Stanton",
+            "affiliation": "Buxmont Coalition for Safer Water"
+        },
+        "juliane-gluege": {
+            "name": "Juliane Gluege",
+            "affiliation": "ETH Zurich"
+        },
+        "jennifer-guelfo": {
+            "name": "Jennifer Guelfo",
+            "affiliation": "Texas Tech University"
+        },
+        "mark-rossi": {
+            "name": "Mark Rossi",
+            "affiliation": "Clean Production Action"
+        },
+        "lenny-siegel": {
+            "name": "Lenny Siegel",
+            "affiliation": "Center for Public Environmental Oversight"
         }
     }
 }
