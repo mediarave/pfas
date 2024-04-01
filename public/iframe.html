@@ -9,23 +9,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
     <script>
-        function positionModal(modal) {
-            if (modal && modal.elm) {
-                var modalHeight = $(modal.elm).outerHeight();
-                var modalRect = $(modal.elm)[0].getBoundingClientRect();
 
-                var newTop = window.scrollY + (window.innerHeight / 2) - (modalHeight / 2);
-                var newLeft = window.innerWidth / 2 - modalRect.width / 2 - 20;
+        function relayPosition(event) {
+            if (event.data === 'windowPositions') {
+                const iframeWindow = document.getElementsByName('htmlComp-iframe')[0].contentWindow;
+                iframeWindow.postMessage(
+                    {
+                        type: 'positions',
+                        data: {
+                            height: window.innerHeight,
+                            width: window.innerWidth,
+                            scrollY: window.scrollY
+                        }
+                    }
 
-                $(modal.elm).css('position', 'absolute');
-                $(modal.elm).css('top', newTop + 'px');
-                $(modal.elm).css('left', newLeft + 'px');
+                    , '*');
             }
         }
+
+        window.addEventListener('message', relayPosition, false);
     </script>
 </head>
 
 <body class="m-0">
+    <header class="h-32">
+        <img class="object-contain h-32" src="https://static.wixstatic.com/media/ffaf03_6d7d1e3c86174c3f8b08563ea803de4f~mv2.jpg/v1/fill/w_387,h_165,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ffaf03_6d7d1e3c86174c3f8b08563ea803de4f~mv2.jpg" alt="">
+    </header>
     <iframe class="absolute h-[4600px]" title="Embedded Content" name="htmlComp-iframe" width="100%" height="100%" allow="fullscreen" data-src="" src="schedule.html"></iframe>
 </body>
 

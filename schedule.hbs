@@ -17,22 +17,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script>
 
+
         $(document).ready(function () {
             console.log('ready'); // jquery loaded
 
             $(document).on($.modal.OPEN, function (event, modal) {
-                // on open of the modal, move it to the center of the parent window
-                // positionModal(modal);
-                window.parent.positionModal(modal);
+                window.parent.postMessage('windowPositions', '*');
             });
 
+            window.addEventListener('message', (event) => {
+                // Check the origin of the message for security
+                const message = event.data;
+                if (message.type === 'positions') {
+                    console.log('Received message from parent:', message.data);
 
-            $(window.parent).on('resize', function () {
-                // on resize of the parent window, recenter the modal, if it is open
-                var modal = $.modal.getCurrent();
-                // positionModal(modal);
-                window.parent.positionModal(modal);
+                    positionModal(message.data)
+                }
             });
+
+            const positionModal = (data) => {
+                // var modal = $.modal;
+
+                const modal = $('.modal:visible');
+
+                const headerHeight = 120;
+
+                const modalHeight = modal.outerHeight();
+                const modalWidth = modal.outerWidth();
+
+                const newTop = data.scrollY - headerHeight + (data.height / 2) - (modalHeight / 2);
+                const newLeft = data.width / 2 - modalWidth / 2 - 20;
+
+                $(modal).css('position', 'absolute');
+                $(modal).css('top', newTop + 'px');
+                $(modal).css('left', newLeft + 'px');
+
+                console.log(newTop);
+                console.log(newLeft);
+            }
+
+
+            // $(window.parent).on('resize', function () {
+            //     // on resize of the parent window, recenter the modal, if it is open
+            //     var modal = $.modal.getCurrent();
+            //     const modalData = {
+            //         type: 'positionModal',
+            //         elm: modal.elm.outerHTML,
+            //         height: $(modal.elm).outerHeight(),
+            //         width: $(modal.elm).outerWidth()
+            //     };
+            //     window.parent.postMessage(modalData, '*');
+            //     // window.parent.positionModal(modal);
+            // });
+
 
             const positionModalLocal = (modal) => {
                 if (window.parent) {
@@ -71,8 +108,8 @@
 
     <main class="schedule relative bg-cyan-950">
 
-        <figure class="absolute m-0 w-full min-h-[200vh]">
-            <div class="absolute inset-0 bg-center bg-cover opacity-15" style="background-image: url('https://static.wixstatic.com/media/ffaf03\_834565175692424fa6844f18bfc7ff3a~mv2.jpg/v1/fill/w\_1284,h\_1494,al\_c,q\_85,usm\_0.66\_1.00\_0.01,enc\_auto/ffaf03\_834565175692424fa6844f18bfc7ff3a~mv2.jpg');"></div>
+        <figure class="absolute m-0 w-full min-h-[1500px]">
+            <div class="absolute inset-0 bg-top bg-cover opacity-15" style="background-image: url('https://static.wixstatic.com/media/ffaf03\_834565175692424fa6844f18bfc7ff3a~mv2.jpg/v1/fill/w\_1284,h\_1494,al\_c,q\_85,usm\_0.66\_1.00\_0.01,enc\_auto/ffaf03\_834565175692424fa6844f18bfc7ff3a~mv2.jpg');"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent to-cyan-950"></div>
         </figure>
 
