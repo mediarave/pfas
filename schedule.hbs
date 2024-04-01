@@ -16,24 +16,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script>
-        // jquery modal before open callback
 
-        // jquery loaded
         $(document).ready(function () {
-            console.log('ready');
+            console.log('ready'); // jquery loaded
 
             $(document).on($.modal.OPEN, function (event, modal) {
-                positionModal(modal);
+                // on open of the modal, move it to the center of the parent window
+                // positionModal(modal);
+                window.parent.positionModal(modal);
             });
 
-            // on resize of the parent window, recenter the modal, if it is open
 
             $(window.parent).on('resize', function () {
+                // on resize of the parent window, recenter the modal, if it is open
                 var modal = $.modal.getCurrent();
-                positionModal(modal);
+                // positionModal(modal);
+                window.parent.positionModal(modal);
             });
 
-            const positionModal = (modal) => {
+            const positionModalLocal = (modal) => {
                 if (window.parent) {
                     var iframe = window.parent.document.getElementsByName('htmlComp-iframe')[0];
 

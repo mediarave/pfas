@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iFrame</title>
     <link rel="stylesheet" href="schedule.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <script>
+        function positionModal(modal) {
+            if (modal && modal.elm) {
+                var modalHeight = $(modal.elm).outerHeight();
+                var modalRect = $(modal.elm)[0].getBoundingClientRect();
+
+                var newTop = window.scrollY + (window.innerHeight / 2) - (modalHeight / 2);
+                var newLeft = window.innerWidth / 2 - modalRect.width / 2 - 20;
+
+                $(modal.elm).css('position', 'absolute');
+                $(modal.elm).css('top', newTop + 'px');
+                $(modal.elm).css('left', newLeft + 'px');
+            }
+        }
+    </script>
 </head>
 
 <body class="m-0">
