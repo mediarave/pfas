@@ -15,6 +15,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        // jquery modal before open callback
+
+        // jquery loaded
+        $(document).ready(function () {
+            console.log('ready');
+
+            $(document).on($.modal.OPEN, function (event, modal) {
+                positionModal(modal);
+            });
+
+            // on resize of the parent window, recenter the modal, if it is open
+
+            $(window.parent).on('resize', function () {
+                var modal = $.modal.getCurrent();
+                positionModal(modal);
+            });
+
+            const positionModal = (modal) => {
+                if (window.parent) {
+                    var iframe = window.parent.document.getElementsByName('htmlComp-iframe')[0];
+
+                    if (modal && modal.elm) {
+                        var modalHeight = $(modal.elm).outerHeight();
+                        var modalRect = $(modal.elm)[0].getBoundingClientRect();
+
+                        var newTop = window.parent.scrollY + (window.parent.innerHeight / 2) - (modalHeight / 2);
+                        var newLeft = window.parent.innerWidth / 2 - modalRect.width / 2 - 20;
+
+                        $(modal.elm).css('position', 'absolute');
+                        $(modal.elm).css('top', newTop + 'px');
+                        $(modal.elm).css('left', newLeft + 'px');
+                    }
+                }
+            }
+
+
+        });
+    </script>
 
 
 </head>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="text-sm sm:text-base overflow-hidden">
+<html lang="en" class="text-sm sm:text-base">
 
 <head>
     <meta charset="UTF-8">
@@ -15,11 +15,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        // jquery modal before open callback
+
+        // jquery loaded
+        $(document).ready(function () {
+            console.log('ready');
+
+            $(document).on($.modal.OPEN, function (event, modal) {
+                positionModal(modal);
+            });
+
+            // on resize of the parent window, recenter the modal, if it is open
+
+            $(window.parent).on('resize', function () {
+                var modal = $.modal.getCurrent();
+                positionModal(modal);
+            });
+
+            const positionModal = (modal) => {
+                if (window.parent) {
+                    var iframe = window.parent.document.getElementsByName('htmlComp-iframe')[0];
+
+                    if (modal && modal.elm) {
+                        var modalHeight = $(modal.elm).outerHeight();
+                        var modalRect = $(modal.elm)[0].getBoundingClientRect();
+
+                        var newTop = window.parent.scrollY + (window.parent.innerHeight / 2) - (modalHeight / 2);
+                        var newLeft = window.parent.innerWidth / 2 - modalRect.width / 2 - 20;
+
+                        $(modal.elm).css('position', 'absolute');
+                        $(modal.elm).css('top', newTop + 'px');
+                        $(modal.elm).css('left', newLeft + 'px');
+                    }
+                }
+            }
+
+
+        });
+    </script>
 
 
 </head>
 
-<body class="bg-cyan-900 text-sky-100 m-0 font-sans">
+<body class="bg-cyan-900 text-sky-100 m-0 font-sans overflow-hidden w-screen h-screen">
 
     <header class="p-10 border-0 border-b-4 border-b-cyan-600 border-solid">
         <h1 class="text-5xl">Schedule of Events</h1>
@@ -51,7 +90,7 @@
                                     Toxic Tour-Detroit 48217 zip code
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">7:00 - 9:00</td>
                             <td class="inline-block">
@@ -65,15 +104,15 @@
                                     <div id="bio1-rob-bilott" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
+                        
                                                 <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
                                                     <img class="w-full block relative -z-20" src="https://media.taftlaw.com/wp-content/uploads/2023/07/20100653/Bilott_Robert_Landing.jpg" alt="Rob Bilott">
                                                 </div>
-
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Rob Bilott</h4>
                                                 <h5 class="font-bold text-xl m-0">Taft Stettinius &amp; Hollister LLP</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Rob Bilott is a partner at Taft Stettinius & Hollister LLP in Cincinnati, Ohio. He represents a diverse range of clients on a wide variety of matters involving federal, state and local environmental laws. Rob has successfully represented a number of clients in complex environmental litigation matters and is currently involved in litigating cases related to PFAS chemicals. He is the author of Exposure: Poisoned Water, Corporate Greed, and One Lawyer's Twenty-Year Battle Against DuPont.</div>
                                         </article>
                                     </div>
@@ -82,7 +121,7 @@
                                     Pre-conference reception<span class="text-sm text-slate-300"> (Presentation and book signing)</span>
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                     </tbody>
                 </table>
             </section>
@@ -102,7 +141,7 @@
                                     Breakfast and Registration
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">8:45 - 9:00</td>
                             <td class="inline-block">
@@ -116,12 +155,12 @@
                                     <div id="bio1-santa-ono" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Santa Ono</h4>
                                                 <h5 class="font-bold text-xl m-0">University of Michigan</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Santa Ono is the President of the University of Michigan. He is a distinguished scholar and researcher in the field of eye disease and has made significant contributions to the understanding of the molecular mechanisms of eye disease. He is a passionate advocate for higher education and has worked to promote diversity and inclusion on college campuses.</div>
                                         </article>
                                     </div>
@@ -134,15 +173,15 @@
                                     <div id="bio1-courtney-carignan" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
+                        
                                                 <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
                                                     <img class="w-full block relative -z-20" src="https://static.wixstatic.com/media/ffaf03_acd4b445245b486ba430b71dd2fdbf88~mv2.jpg/v1/fit/w_400,h_400,q_90/ffaf03_acd4b445245b486ba430b71dd2fdbf88~mv2.jpg" alt="Courtney Carignan">
                                                 </div>
-
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Courtney Carignan</h4>
                                                 <h5 class="font-bold text-xl m-0">Michigan State University</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Courtney Carignan is an Assistant Professor in the Department of Food Science and Human Nutrition at Michigan State University. She is a nutritional epidemiologist with a focus on environmental exposures and health outcomes. Her research focuses on the impact of environmental chemicals on human health, with a particular emphasis on per- and polyfluoroalkyl substances (PFAS).</div>
                                         </article>
                                     </div>
@@ -155,15 +194,15 @@
                                     <div id="bio1-robb-kerr" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
+                        
                                                 <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
                                                     <img class="w-full block relative -z-20" src="https://static.wixstatic.com/media/ffaf03_f822ce6bd5824c4cb3eea8e2c8451ecc~mv2.jpg/v1/fit/w_743,h_825,q_90/ffaf03_f822ce6bd5824c4cb3eea8e2c8451ecc~mv2.jpg" alt="Robb Kerr">
                                                 </div>
-
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Robb Kerr</h4>
                                                 <h5 class="font-bold text-xl m-0">Great Lakes PFAS Action Network, Wolfpack</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Robb Kerr is a member of the Great Lakes PFAS Action Network Wolfpack. He is a passionate advocate for clean water and has been working to raise awareness about PFAS contamination in the Great Lakes region. He is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals.</div>
                                         </article>
                                     </div>
@@ -176,15 +215,15 @@
                                     <div id="bio1-sandy-wynn-stelt" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
+                        
                                                 <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
                                                     <img class="w-full block relative -z-20" src="https://static.wixstatic.com/media/ffaf03_022577a7113b4690b698f5791b4f25b7~mv2.jpeg/v1/fit/w_743,h_825,q_90/ffaf03_022577a7113b4690b698f5791b4f25b7~mv2.jpeg" alt="Sandy Wynn-Stelt">
                                                 </div>
-
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Sandy Wynn-Stelt</h4>
                                                 <h5 class="font-bold text-xl m-0">Great Lakes PFAS Action Network</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Sandy Wynn-Stelt is a member of the Great Lakes PFAS Action Network. She has been working to raise awareness about PFAS contamination in the Great Lakes region and is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals. She is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.</div>
                                         </article>
                                     </div>
@@ -193,7 +232,7 @@
                                     Welcome
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">9:00 - 9:30</td>
                             <td class="inline-block">
@@ -207,12 +246,12 @@
                                     <div id="bio2-debbie-dingell" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Debbie Dingell</h4>
                                                 <h5 class="font-bold text-xl m-0">U.S. Representative</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -221,7 +260,7 @@
                                     Keynote Presentation
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">9:30 - 10:40</td>
                             <td class="inline-block">
@@ -235,12 +274,12 @@
                                     <div id="bio3-bob-delaney" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Bob Delaney</h4>
                                                 <h5 class="font-bold text-xl m-0">PFAS Alliance</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -253,12 +292,12 @@
                                     <div id="bio3-garret-ellison" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Garret Ellison</h4>
                                                 <h5 class="font-bold text-xl m-0">MLive</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -271,15 +310,15 @@
                                     <div id="bio3-tony-spaniola" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
+                        
                                                 <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
                                                     <img class="w-full block relative -z-20" src="https://static.wixstatic.com/media/ffaf03_b1e452644d3a415eb4870ddb0c9a7be6~mv2.jpeg/v1/fit/w_175,h_226,q_90/ffaf03_b1e452644d3a415eb4870ddb0c9a7be6~mv2.jpeg" alt="Tony Spaniola">
                                                 </div>
-
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Tony Spaniola</h4>
                                                 <h5 class="font-bold text-xl m-0">Great Lakes PFAS Action Network</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Tony Spaniola is a member of the Great Lakes PFAS Action Network. He has been working to raise awareness about PFAS contamination in the Great Lakes region and is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals. He is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.</div>
                                         </article>
                                     </div>
@@ -292,15 +331,15 @@
                                     <div id="bio3-sandy-wynn-stelt" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
+                        
                                                 <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
                                                     <img class="w-full block relative -z-20" src="https://static.wixstatic.com/media/ffaf03_022577a7113b4690b698f5791b4f25b7~mv2.jpeg/v1/fit/w_743,h_825,q_90/ffaf03_022577a7113b4690b698f5791b4f25b7~mv2.jpeg" alt="Sandy Wynn-Stelt">
                                                 </div>
-
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Sandy Wynn-Stelt</h4>
                                                 <h5 class="font-bold text-xl m-0">Great Lakes PFAS Action Network</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Sandy Wynn-Stelt is a member of the Great Lakes PFAS Action Network. She has been working to raise awareness about PFAS contamination in the Great Lakes region and is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals. She is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.</div>
                                         </article>
                                     </div>
@@ -309,7 +348,7 @@
                                     The Michigan Story
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">10:40 - 11:00</td>
                             <td class="inline-block">
@@ -317,7 +356,7 @@
                                     Break
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">11:00 - 12:10</td>
                             <td class="inline-block">
@@ -331,12 +370,12 @@
                                     <div id="bio5-anna-reade" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Anna Reade</h4>
                                                 <h5 class="font-bold text-xl m-0">The National Resources Defense Council</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -349,12 +388,12 @@
                                     <div id="bio5-phil-roos" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Phil Roos</h4>
                                                 <h5 class="font-bold text-xl m-0">Environment, Great Lakes, and Energy - State of Michigan</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -367,12 +406,12 @@
                                     <div id="bio5-dana-strande" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Dana Strande</h4>
                                                 <h5 class="font-bold text-xl m-0">Community Member</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -381,7 +420,7 @@
                                     PFAS Policy initiatives: Federal and State Responses
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">12:10 - 1:30</td>
                             <td class="inline-block">
@@ -389,7 +428,7 @@
                                     Lunch
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">1:30 - 2:00</td>
                             <td class="inline-block">
@@ -403,12 +442,12 @@
                                     <div id="bio7-radhika-fox" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Radhika Fox</h4>
                                                 <h5 class="font-bold text-xl m-0">North Star Strategy</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Radhika Fox is the CEO of the US Water Alliance and Director of the Value of Water Campaign. She is a leading expert on water policy and has worked to promote sustainable water management practices. She is a passionate advocate for clean water and has been working to ensure that all communities have access to safe and affordable drinking water.</div>
                                         </article>
                                     </div>
@@ -417,7 +456,7 @@
                                     Keynote: Whole of Government approach moving forward
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">2:00 - 3:10</td>
                             <td class="inline-block">
@@ -431,12 +470,12 @@
                                     <div id="bio8-janice-hunter" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Janice Hunter</h4>
                                                 <h5 class="font-bold text-xl m-0">West Oakland Indicator Project</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -449,12 +488,12 @@
                                     <div id="bio8-margaret-gordon" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Margaret Gordon</h4>
                                                 <h5 class="font-bold text-xl m-0">West Oakland Indicator Project</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -467,12 +506,12 @@
                                     <div id="bio8-linda-robles" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Linda Robles</h4>
                                                 <h5 class="font-bold text-xl m-0">Community Member</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -481,7 +520,7 @@
                                     Tools for Equitable Research Partnerships with the Association for Advancing Participatory Science
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">3:10 - 3:30</td>
                             <td class="inline-block">
@@ -489,7 +528,7 @@
                                     Break
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">3:30 - 4:40</td>
                             <td class="inline-block">
@@ -503,12 +542,12 @@
                                     <div id="bio10-jason-grostic" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Jason Grostic</h4>
                                                 <h5 class="font-bold text-xl m-0">Great Lakes PFAS Action Network</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -521,12 +560,12 @@
                                     <div id="bio10-bill-pluecker" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Bill Pluecker</h4>
                                                 <h5 class="font-bold text-xl m-0">Maine Organic Farmers Association</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -535,7 +574,7 @@
                                     Dietary Considerations of PFAS
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">4:40 - 6:10</td>
                             <td class="inline-block">
@@ -543,7 +582,7 @@
                                     Poster Session and Strolling Dinner
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">5:00</td>
                             <td class="inline-block">
@@ -551,7 +590,7 @@
                                     Toxic tour - Kayak trip down Huron River
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                     </tbody>
                 </table>
             </section>
@@ -571,7 +610,7 @@
                                     Networking Breakfast
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">9:00 - 9:30</td>
                             <td class="inline-block">
@@ -585,12 +624,12 @@
                                     <div id="bio1-rachel-rogers" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Rachel Rogers</h4>
                                                 <h5 class="font-bold text-xl m-0">Agency for Toxic Substances and Disease Registry</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -599,7 +638,7 @@
                                     Keynote Presentation
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">9:30 - 10:40</td>
                             <td class="inline-block">
@@ -613,12 +652,12 @@
                                     <div id="bio2-jesse-goodrich" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Jesse Goodrich</h4>
                                                 <h5 class="font-bold text-xl m-0">University of South Carolina</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -631,12 +670,12 @@
                                     <div id="bio2-tobyn-mcnaughton" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Tobyn McNaughton</h4>
                                                 <h5 class="font-bold text-xl m-0">Great Lakes PFAS Action Network</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -649,12 +688,12 @@
                                     <div id="bio2-brittney-ricard" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Brittney Ricard</h4>
                                                 <h5 class="font-bold text-xl m-0">North Carolina State University</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -663,7 +702,7 @@
                                     New Discoveries in PFAS Health Effects
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">10:40 - 11:00</td>
                             <td class="inline-block">
@@ -671,7 +710,7 @@
                                     Break
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">11:00 - 12:10</td>
                             <td class="inline-block">
@@ -685,15 +724,15 @@
                                     <div id="bio4-courtney-carignan" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
+                        
                                                 <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
                                                     <img class="w-full block relative -z-20" src="https://static.wixstatic.com/media/ffaf03_acd4b445245b486ba430b71dd2fdbf88~mv2.jpg/v1/fit/w_400,h_400,q_90/ffaf03_acd4b445245b486ba430b71dd2fdbf88~mv2.jpg" alt="Courtney Carignan">
                                                 </div>
-
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Courtney Carignan</h4>
                                                 <h5 class="font-bold text-xl m-0">Michigan State University</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Courtney Carignan is an Assistant Professor in the Department of Food Science and Human Nutrition at Michigan State University. She is a nutritional epidemiologist with a focus on environmental exposures and health outcomes. Her research focuses on the impact of environmental chemicals on human health, with a particular emphasis on per- and polyfluoroalkyl substances (PFAS).</div>
                                         </article>
                                     </div>
@@ -706,12 +745,12 @@
                                     <div id="bio4-kevin-elliott" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Kevin Elliott</h4>
                                                 <h5 class="font-bold text-xl m-0">Michigan State University</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -724,12 +763,12 @@
                                     <div id="bio4-kyle-horton" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Kyle Horton</h4>
                                                 <h5 class="font-bold text-xl m-0">On Your Side Action</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -738,7 +777,7 @@
                                     Guidance for Clinicians
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">12:10 - 1:30</td>
                             <td class="inline-block">
@@ -746,7 +785,7 @@
                                     Lunch
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">1:30 - 2:00</td>
                             <td class="inline-block">
@@ -760,12 +799,12 @@
                                     <div id="bio6-marcos-a-orellana" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Marcos A. Orellana</h4>
                                                 <h5 class="font-bold text-xl m-0">United Nations</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -774,7 +813,7 @@
                                     Keynote: Special Rapporteur on Toxics and Human Rights
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">2:00 - 3:10</td>
                             <td class="inline-block">
@@ -788,12 +827,12 @@
                                     <div id="bio7-lida-chatzi" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Lida Chatzi</h4>
                                                 <h5 class="font-bold text-xl m-0">Southern California Environmental Health Sciences Center</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -806,15 +845,15 @@
                                     <div id="bio7-emily-donovan" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
+                        
                                                 <div class="photo border-cyan-600 border-2 border-solid rounded-md shadow-lg">
                                                     <img class="w-full block relative -z-20" src="https://static.wixstatic.com/media/ffaf03_c530ff318f484957897dd2c43ea935d4~mv2.jpg/v1/fit/w_743,h_825,q_90/ffaf03_c530ff318f484957897dd2c43ea935d4~mv2.jpg" alt="Emily Donovan">
                                                 </div>
-
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Emily Donovan</h4>
                                                 <h5 class="font-bold text-xl m-0">Clean Cape Fear</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold">Emily Donovan is a community organizer and activist who has been working to raise awareness about PFAS contamination in North Carolina. She is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.</div>
                                         </article>
                                     </div>
@@ -827,12 +866,12 @@
                                     <div id="bio7-scott-faber" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Scott Faber</h4>
                                                 <h5 class="font-bold text-xl m-0">Environmental Working Group</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -841,7 +880,7 @@
                                     Exploring Business-related Human Rights Violations in the United States
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">3:10 - 3:30</td>
                             <td class="inline-block">
@@ -849,7 +888,7 @@
                                     Break
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">3:30 - 4:40</td>
                             <td class="inline-block">
@@ -863,12 +902,12 @@
                                     <div id="bio9-kris-hanson" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Kris Hanson</h4>
                                                 <h5 class="font-bold text-xl m-0">formerly 3M</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -881,12 +920,12 @@
                                     <div id="bio9-neil-mcmillan" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Neil McMillan</h4>
                                                 <h5 class="font-bold text-xl m-0">International Association of Fire Fighters</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -899,12 +938,12 @@
                                     <div id="bio9-denise-trabbic-pointer" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Denise Trabbic-Pointer</h4>
                                                 <h5 class="font-bold text-xl m-0">formerly DuPont</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -917,12 +956,12 @@
                                     <div id="bio9-tim-whitehouse" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Tim Whitehouse</h4>
                                                 <h5 class="font-bold text-xl m-0">Public Employees for Environmental Responsibility</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -931,7 +970,7 @@
                                     Worker Rights and Protections
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">4:40 - 6:10</td>
                             <td class="inline-block">
@@ -939,7 +978,7 @@
                                     Poster Session and Strolling Dinner
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">5:00</td>
                             <td class="inline-block">
@@ -947,7 +986,7 @@
                                     RAIN DATE: Toxic tour-Kayak trip down Huron River
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                     </tbody>
                 </table>
             </section>
@@ -967,7 +1006,7 @@
                                     Networking Breakfast
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">9:00 - 9:30</td>
                             <td class="inline-block">
@@ -981,12 +1020,12 @@
                                     <div id="bio1-mark-strynar" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Mark Strynar</h4>
                                                 <h5 class="font-bold text-xl m-0">Environmental Protection Agency</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -995,7 +1034,7 @@
                                     Keynote: PFAS Chemistry Updates
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">9:30 - 10:40</td>
                             <td class="inline-block">
@@ -1009,12 +1048,12 @@
                                     <div id="bio2-bill-jackson" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Bill Jackson</h4>
                                                 <h5 class="font-bold text-xl m-0">Kelley Drye &amp; Warren, LLP</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -1027,12 +1066,12 @@
                                     <div id="bio2-detlef-knappe" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Detlef Knappe</h4>
                                                 <h5 class="font-bold text-xl m-0">North Carolina State University</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -1045,12 +1084,12 @@
                                     <div id="bio2-joanne-stanton" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Joanne Stanton</h4>
                                                 <h5 class="font-bold text-xl m-0">Buxmont Coalition for Safer Water</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -1059,7 +1098,7 @@
                                     Remediation
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">10:40 - 11:00</td>
                             <td class="inline-block">
@@ -1067,7 +1106,7 @@
                                     Break
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">11:00 - 12:10</td>
                             <td class="inline-block">
@@ -1081,12 +1120,12 @@
                                     <div id="bio4-juliane-gluege" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Juliane Gluege</h4>
                                                 <h5 class="font-bold text-xl m-0">ETH Zurich</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -1099,12 +1138,12 @@
                                     <div id="bio4-jennifer-guelfo" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Jennifer Guelfo</h4>
                                                 <h5 class="font-bold text-xl m-0">Texas Tech University</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -1117,12 +1156,12 @@
                                     <div id="bio4-mark-rossi" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Mark Rossi</h4>
                                                 <h5 class="font-bold text-xl m-0">Clean Production Action</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -1135,12 +1174,12 @@
                                     <div id="bio4-lenny-siegel" class="modal">
                                         <article class="profile flex-col flex gap-5 lg:flex-row">
                                             <aside class="flex-1 my-5 max-w-sm break-words">
-
-
+                        
+                        
                                                 <h4 class="font-bold text-2xl text-cyan-400 m-0 mt-4">Lenny Siegel</h4>
                                                 <h5 class="font-bold text-xl m-0">Center for Public Environmental Oversight</h5>
                                             </aside>
-
+                        
                                             <div class="description flex-1 lg:p-5 font-semibold"></div>
                                         </article>
                                     </div>
@@ -1149,7 +1188,7 @@
                                     Sustainability Challenges and Safe Alternatives
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">12:10 - 1:30</td>
                             <td class="inline-block">
@@ -1157,7 +1196,7 @@
                                     Lunch
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">1:30 - 2:00</td>
                             <td class="inline-block">
@@ -1165,7 +1204,7 @@
                                     Keynote Presentation
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">2:00 - 2:30</td>
                             <td class="inline-block">
@@ -1173,7 +1212,7 @@
                                     Awards, Closing Message and Moving Forward
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td class="font-bold text-lg">2:30 - 4:30</td>
                             <td class="inline-block">
@@ -1181,7 +1220,7 @@
                                     Workshops
                                 </div>
                             </td>
-                        </tr>
+                            </tr>
                     </tbody>
                 </table>
             </section>

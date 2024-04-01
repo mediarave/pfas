@@ -4,7 +4,7 @@ const colors = require('tailwindcss/colors');
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    content: ['./public/schedule.html'],
+    content: ['./public/*.html'],
     safelist: ['hidden'],
     theme: {
         extend: {
