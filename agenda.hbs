@@ -61,6 +61,13 @@
         {{/if}}
         <div class="text-cyan-100 text-lg {{#if presenters.length}}mt-4{{else}}font-bold{{/if}}">
             {{event}}{{#if description}}<span class="text-sm text-slate-300"> ({{description}})</span>{{/if}}
+            {{#if details}}
+            <ul>
+                {{#each details}}
+                <li class="text-sm">{{this}}</li>
+                {{/each}}
+            </ul>
+            {{/if}}
         </div>
     </td>
     </tr>
