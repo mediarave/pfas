@@ -26,21 +26,34 @@ const updateSchedule = () => {
 
     const scheduleTemplate = handlebars.compile(fs.readFileSync(path.join(scriptDir, 'schedule.hbs'), 'utf8'));
 
-    const schedule = JSON.parse(stripJsonComments(fs.readFileSync(path.join(scriptDir, 'schedule.jsonc'), 'utf8')));
+    try {
+        const schedule = JSON.parse(stripJsonComments(fs.readFileSync(path.join(scriptDir, 'schedule.jsonc'), 'utf8')));
+        const scheduleHtml = scheduleTemplate(schedule);
+        fs.writeFileSync(path.join(scriptDir, 'public', 'schedule.html'), scheduleHtml);
+    } catch (error) {
+        const red = '\x1b[31m';
+        const reset = '\x1b[0m';
 
-    const scheduleHtml = scheduleTemplate(schedule);
-    fs.writeFileSync(path.join(scriptDir, 'public', 'schedule.html'), scheduleHtml);
+        if (error instanceof SyntaxError) {
+            const { message } = error;
+            console.error(`${red}JSON syntax error: ${message}${reset}`);
+        } else {
+            console.error('Error updating schedule:', error);
+        }
+    }
 };
 
-fs.watchFile(path.join(scriptDir, 'schedule.hbs'), { persistent: true }, () => {
-    console.log('schedule.hbs changed!');
-    updateSchedule();
-});
-fs.watchFile(path.join(scriptDir, 'agenda.hbs'), { persistent: true }, () => {
-    console.log('agenda.hbs changed!');
-    updateSchedule();
-});
-fs.watchFile(path.join(scriptDir, 'schedule.jsonc'), { persistent: true }, () => {
-    console.log('schedule.jsonc changed!');
-    updateSchedule();
+const watchPaths = [
+    path.join(scriptDir, 'schedule.hbs'),
+    path.join(scriptDir, 'agenda.hbs'),
+    path.join(scriptDir, 'schedule.jsonc')
+];
+
+watchPaths.forEach((filePath) => {
+    fs.watch(filePath, { persistent: true }, (eventType, filename) => {
+        if (eventType === 'change' && filename) {
+            console.log(`${filename} ${eventType}`);
+            updateSchedule();
+        }
+    });
 });

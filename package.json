@@ -13,7 +13,7 @@
         "build": "set NODE_ENV=production& postcss tailwind.css -o public/schedule.css",
         "serve": "browser-sync start --server --directory --files \"./public/*.html, ./public/schedule.css, ./schedule.js\"",
         "schedule": "node schedule.js",
-        "dev": "npm-run-all --parallel postcss serve schedule"
+        "dev": "npm-run-all --parallel postcss schedule serve"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.18",
