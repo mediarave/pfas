@@ -131,7 +131,7 @@
                 },
                 {
                     "time": "5:00",
-                    "event": "Toxic tour - Kayak trip down Huron River"
+                    "event": "Field Trip: Toxic tour - Kayak trip down Huron River"
                 }
             ]
         },
@@ -149,19 +149,22 @@
             //   Courtney Carignan, Michigan State University
             //   Kevin Elliott, Michigan State University
             //   Kyle Horton, On Your Side Action
+            //   David Collier, East Carolina University
             // 12:10-1:30 pm	Lunch
             // 1:30-2:00 pm	KEYNOTE:	Special Rapporteur on Toxics and Human Rights
             // Marcos A. Orellana, United Nations
             // 2:00-3:10 pm	Session 3	Exploring Business-related Human Rights Violations in the United States
-            //   Lida Chatzi, Southern California Environmental Health Sciences Center
             //   Emily Donovan, Clean Cape Fear
-            //   Scott Faber, Environmental Working Group
+            //   Lida Chatzi, University of Southern California
+            //   Scot Faber, Environmental Working Group
+            //   Lieselot Bisschop, Eramus University Rotterdam
+
             // 3:10-3:30 pm	Break
             // 3:30-4:40 pm	Session 4	Worker Rights and Protections
-            //   Kris Hanson, formerly 3M
-            //   Neil McMillan, International Association of Fire Fighters
-            //   Denise Trabbic-Pointer, formerly DuPont
             //   Tim Whitehouse, Public Employees for Environmental Responsibility
+            //   Denise Trabbic-Pointer, formerly DuPont
+            //   Kris Hansen, Savanna Science Consulting
+            //   Neil McMillan, International Association of Fire Fighters
             // 4:40-6:10 pm	Poster Sessions	Poster Session and Strolling Dinner
             // 5:00 pm	**Field Trip	RAIN DATE:  Toxic tour-Kayak trip down Huron River
 
@@ -179,7 +182,7 @@
                 },
                 {
                     "time": "9:30 - 10:40",
-                    "event": "New Discoveries in PFAS Health Effects",
+                    "event": "Session 1: New Discoveries in PFAS Health Effects",
                     "presenters": ["jesse-goodrich", "tobyn-mcnaughton", "brittany-rickard"]
                 },
                 {
@@ -188,8 +191,8 @@
                 },
                 {
                     "time": "11:00 - 12:10",
-                    "event": "Guidance for Clinicians",
-                    "presenters": ["courtney-carignan", "kevin-elliott", "kyle-horton"]
+                    "event": "Session 2: Guidance for Clinicians",
+                    "presenters": ["courtney-carignan", "kevin-elliott", "kyle-horton", "david-collier"]
                 },
                 {
                     "time": "12:10 - 1:30",
@@ -202,8 +205,8 @@
                 },
                 {
                     "time": "2:00 - 3:10",
-                    "event": "Exploring Business-related Human Rights Violations in the United States",
-                    "presenters": ["lida-chatzi", "emily-donovan", "scott-faber"]
+                    "event": "Session 3: Exploring Business-related Human Rights Violations in the United States",
+                    "presenters": ["emily-donovan", "lida-chatzi", "scott-faber", "lieselot-bisschop"]
                 },
                 {
                     "time": "3:10 - 3:30",
@@ -211,8 +214,8 @@
                 },
                 {
                     "time": "3:30 - 4:40",
-                    "event": "Worker Rights and Protections",
-                    "presenters": ["kris-hanson", "neil-mcmillan", "denise-trabbic-pointer", "tim-whitehouse"]
+                    "event": "Session 4: Worker Rights and Protections",
+                    "presenters": ["tim-whitehouse", "denise-trabbic-pointer", "kris-hansen", "neil-mcmillan"]
                 },
                 {
                     "time": "4:40 - 6:10",
@@ -220,7 +223,7 @@
                 },
                 {
                     "time": "5:00",
-                    "event": "RAIN DATE: Toxic tour-Kayak trip down Huron River"
+                    "event": "Field Trip: (Rain Date only if trip is rained out on Monday) Toxic tour-Kayak trip down Huron River"
                 }
             ]
         },
@@ -230,18 +233,18 @@
             // 9:00-9:30 am	KEYNOTE:	PFAS Chemistry Updates
             // Mark Strynar, Environmental Protection Agency
             // 9:30-10:40 am	Session1	Remediation
-            //   Bill Jackson, Kelley Drye & Warren, LLP
-            //   Detlef Knappe, North Carolina State University
             //   Joanne Stanton, Buxmont Coalition for Safer Water
+            //   Dave Reap, Kelley Drye & Warren, LLP
+            //   Detlef Knappe, North Carolina State University
             // 10:40-11:00 am	Break
             // 11:00 am -12:10 pm	Session 2	Sustainability Challenges and Safe Alternatives
-            //   Juliane Gluege, ETH Zurich
-            //   Jennifer Guelfo, Texas Tech University
             //   Mark Rossi, Clean Production Action
+            //   Juliane Glüge, ETH Zurich
             //   Lenny Siegel, Center for Public Environmental Oversight
+            //   Jennifer Guelfo, Texas Tech University
             // 12:10-1:30 pm	Lunch
             // 1:30-2:00 pm		Keynote Presentation
-            // TBD
+            // Jamie DeWitt, Oregon State University
             // 2:00-2:30 pm		Awards, Closing Message and Moving Forward
             // 2:30-4:30 pm		Workshops
 
@@ -259,8 +262,8 @@
                 },
                 {
                     "time": "9:30 - 10:40",
-                    "event": "Remediation",
-                    "presenters": ["bill-jackson", "detlef-knappe", "joanne-stanton"]
+                    "event": "Session 1: Remediation",
+                    "presenters": ["joanne-stanton", "dave-reap", "detlef-knappe"]
                 },
                 {
                     "time": "10:40 - 11:00",
@@ -268,8 +271,8 @@
                 },
                 {
                     "time": "11:00 - 12:10",
-                    "event": "Sustainability Challenges and Safe Alternatives",
-                    "presenters": ["juliane-gluege", "jennifer-guelfo", "mark-rossi", "lenny-siegel"]
+                    "event": "Session 2: Sustainability Challenges and Safe Alternatives",
+                    "presenters": ["mark-rossi", "juliane-gluege", "lenny-siegel", "jennifer-guelfo"]
                 },
                 {
                     "time": "12:10 - 1:30",
@@ -277,7 +280,8 @@
                 },
                 {
                     "time": "1:30 - 2:00",
-                    "event": "Keynote Presentation"
+                    "event": "Keynote Presentation",
+                    "presenters": ["jamie-dewitt"]
                 },
                 {
                     "time": "2:00 - 2:30",
@@ -285,7 +289,16 @@
                 },
                 {
                     "time": "2:30 - 4:30",
-                    "event": "Workshops"
+                    "event": "Concurrent Workshops",
+                    "details": [
+                        "Medical Guidance for Clinicians and Patients",
+                        "Educational outreach for K-12 students on PFAS",
+                        "PFAS at Military Installations",
+                        "Community Mapping",
+                        "Impacts on farming communities and related mental health concerns",
+                        "Effective strategies for public communications",
+                        "Community-Driven Health Survey"
+                    ]
                 }
             ]
         }
@@ -407,6 +420,10 @@
             "name": "Tobyn McNaughton",
             "affiliation": "Impacted Community Member"
         },
+        "brittany-rickard": {
+            "name": "Brittany Rickard",
+            "affiliation": "North Carolina State University"
+        },
         "kevin-elliott": {
             "name": "Kevin Elliott",
             "affiliation": "Michigan State University"
@@ -415,13 +432,17 @@
             "name": "Kyle Horton",
             "affiliation": "On Your Side Action"
         },
+        "david-collier": {
+            "name": "David Collier",
+            "affiliation": "East Carolina University"
+        },
         "marcos-a-orellana": {
             "name": "Marcos A. Orellana",
             "affiliation": "United Nations"
         },
         "lida-chatzi": {
             "name": "Lida Chatzi",
-            "affiliation": "Southern California Environmental Health Sciences Center"
+            "affiliation": "University of Southern California"
         },
         "emily-donovan": {
             "name": "Emily Donovan",
@@ -433,9 +454,9 @@
             "name": "Scott Faber",
             "affiliation": "Environmental Working Group"
         },
-        "kris-hanson": {
-            "name": "Kris Hanson",
-            "affiliation": "formerly 3M"
+        "lieselot-bisschop": {
+            "name": "Lieselot Bisschop",
+            "affiliation": "Eramus University Rotterdam"
         },
         "neil-mcmillan": {
             "name": "Neil McMillan",
@@ -445,6 +466,10 @@
             "name": "Denise Trabbic-Pointer",
             "affiliation": "formerly DuPont"
         },
+        "kris-hansen": {
+            "name": "Kris Hansen",
+            "affiliation": "Savanna Science Consulting"
+        },
         "tim-whitehouse": {
             "name": "Tim Whitehouse",
             "affiliation": "Public Employees for Environmental Responsibility"
@@ -452,10 +477,6 @@
         "mark-strynar": {
             "name": "Mark Strynar",
             "affiliation": "Environmental Protection Agency"
-        },
-        "bill-jackson": {
-            "name": "Bill Jackson",
-            "affiliation": "Kelley Drye & Warren, LLP"
         },
         "detlef-knappe": {
             "name": "Detlef Knappe",
@@ -465,13 +486,21 @@
             "name": "Joanne Stanton",
             "affiliation": "Buxmont Coalition for Safer Water"
         },
+        "dave-reap": {
+            "name": "Dave Reap",
+            "affiliation": "Kelley Drye & Warren, LLP"
+        },
         "juliane-gluege": {
-            "name": "Juliane Gluege",
+            "name": "Juliane Glüge",
             "affiliation": "ETH Zurich"
         },
         "jennifer-guelfo": {
             "name": "Jennifer Guelfo",
             "affiliation": "Texas Tech University"
+        },
+        "jamie-dewitt": {
+            "name": "Jamie DeWitt",
+            "affiliation": "Oregon State University"
         },
         "mark-rossi": {
             "name": "Mark Rossi",
