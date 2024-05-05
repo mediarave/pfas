@@ -319,7 +319,7 @@
             "name": "Courtney Carignan",
             "affiliation": "Michigan State University",
             "bio": "Dr. Carignan is an exposure scientist and environmental epidemiologist whose research helps protect reproductive and child health by investigating exposure to contaminants in food, water, consumer and personal care products. She conducts biomonitoring and health studies for a wide range of populations, including preconception and birth cohorts as well as communities exposed to contaminated drinking water. Her research has contributed to public health interventions aimed at reducing exposures to flame retardants, perfluoroalkyl substances (PFAS), and arsenic.",
-            "photo": "https://static.wixstatic.com/media/ffaf03_acd4b445245b486ba430b71dd2fdbf88~mv2.jpg/v1/fit/w_400,h_400,q_90/ffaf03_acd4b445245b486ba430b71dd2fdbf88~mv2.jpg"
+            "photo": "https://static.wixstatic.com/media/ffaf03_18a82b54d4204ae2b1416e47ae712c76~mv2.jpg"
         },
         "robb-kerr": {
             "name": "Robb Kerr",
@@ -339,29 +339,34 @@
         },
         "robert-delaney": {
             "name": "Robert Delaney",
-            "affiliation": "Need Our Water"
+            "affiliation": "Need Our Water",
+            "photo": "https://static.wixstatic.com/media/ffaf03_95c2a271a8114c8292d0212b5f3845b7~mv2.jpg"
         },
         "garret-ellison": {
             "name": "Garret Ellison",
-            "affiliation": "MLive"
+            "affiliation": "MLive",
+            "photo": "https://static.wixstatic.com/media/ffaf03_77ed76ed63ae41dc9551f506b3b7c6df~mv2.jpg"
         },
         "tony-spaniola": {
             "name": "Tony Spaniola",
             "affiliation": "Great Lakes PFAS Action Network",
             "bio": "Tony Spaniola is a member of the Great Lakes PFAS Action Network. He has been working to raise awareness about PFAS contamination in the Great Lakes region and is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals. He is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.",
-            "photo": "https://static.wixstatic.com/media/ffaf03_b1e452644d3a415eb4870ddb0c9a7be6~mv2.jpeg/v1/fit/w_175,h_226,q_90/ffaf03_b1e452644d3a415eb4870ddb0c9a7be6~mv2.jpeg"
+            "photo": "https://static.wixstatic.com/media/ffaf03_63a4d778099d41fcbf1204c18848e62b~mv2.jpg"
         },
         "anna-reade": {
             "name": "Anna Reade",
-            "affiliation": "National Resources Defense Council"
+            "affiliation": "National Resources Defense Council",
+            "photo": "https://static.wixstatic.com/media/ffaf03_743dde3dce1743f999d74a064b02cf01~mv2.jpg"
         },
         "phil-roos": {
             "name": "Phil Roos",
-            "affiliation": "Michigan Department of Environment, Great Lakes, and Energy"
+            "affiliation": "Michigan Department of Environment, Great Lakes, and Energy",
+            "photo": "https://static.wixstatic.com/media/ffaf03_822f99962d64427bb63cec6dffd4471f~mv2.jpg"
         },
         "dana-strande": {
             "name": "Dana Fath Strande",
-            "affiliation": "Community Member"
+            "affiliation": "Community Member",
+            "photo": "https://static.wixstatic.com/media/ffaf03_0c5a002f57424cb681aec916410923d9~mv2.jpg"
         },
         "alexis-lan": {
             "name": "Alexis Lan",
@@ -371,6 +376,11 @@
             "name": "Brittany Jacobs",
             "affiliation": "Environmental Protection Agency"
         },
+        "brittany-rickard": {
+            "name": "Brittany Rickard",
+            "affiliation": "North Carolina State University",
+            "photo": "https://static.wixstatic.com/media/ffaf03_391aa75d90dd4d93ad4a21030d0c07e3~mv2.jpg"
+        },
         "radhika-fox": {
             "name": "Radhika Fox",
             "affiliation": "North Star Strategy",
@@ -378,63 +388,73 @@
         },
         "janice-hunter": {
             "name": "Janice Hunter",
-            "affiliation": "West Oakland Environmental Indicators Project"
+            "affiliation": "West Oakland Environmental Indicators Project",
+            "photo": "https://static.wixstatic.com/media/ffaf03_8302fc2bef0f42fab060bf083a923646~mv2.jpg"
         },
         "jahred-liddie": {
             "name": "Jahred Liddie",
-            "affiliation": "Harvard University"
+            "affiliation": "Harvard University",
+            "photo": "https://static.wixstatic.com/media/ffaf03_ea417a1daf4048f59dac532abb2e0624~mv2.jpg"
         },
         "jennifer-carrera": {
             "name": "Jennifer Carrera",
-            "affiliation": "Michigan State University"
+            "affiliation": "Michigan State University",
+            "photo": "https://static.wixstatic.com/media/ffaf03_97498f4dc95f435286bb8f3da2f09287~mv2.jpg"
         },
         "margaret-gordon": {
             "name": "Margaret Gordon",
-            "affiliation": "West Oakland Environmental Indicators Project"
+            "affiliation": "West Oakland Environmental Indicators Project",
+            "photo": "https://static.wixstatic.com/media/ffaf03_5c6883421c174409aaa75f007fd79951~mv2.jpg"
         },
         "linda-shosie": {
             "name": "Linda Shosie",
-            "affiliation": "Environmental Justice Working Group"
+            "affiliation": "Environmental Justice Working Group",
+            "photo": "https://static.wixstatic.com/media/ffaf03_0e6bdabeb5ba4868953830e74f8c3a85~mv2.jpg"
         },
         "jason-grostic": {
             "name": "Jason Grostic",
-            "affiliation": "Great Lakes PFAS Action Network"
+            "affiliation": "Great Lakes PFAS Action Network",
+            "photo": "https://static.wixstatic.com/media/ffaf03_86c4f2ffab164dfb8c92ebe8dcc14d3f~mv2.jpg"
         },
         "bill-pluecker": {
             "name": "Bill Pluecker",
-            "affiliation": "Maine Organic Farmers Association"
+            "affiliation": "Maine Organic Farmers Association",
+            "photo": "https://static.wixstatic.com/media/ffaf03_8ee72babbb6541f6aa0b38366e29a1e8~mv2.jpg"
         },
         "pingping-meng": {
             "name": "PingPing Meng",
-            "affiliation": "Eastern Carolina University"
+            "affiliation": "Eastern Carolina University",
+            "photo": "https://static.wixstatic.com/media/ffaf03_718f15a960464383bf6330c9cf0315ea~mv2.jpg"
         },
         "rachel-rogers": {
             "name": "Rachel Rogers",
-            "affiliation": "Agency for Toxic Substances and Disease Registry"
+            "affiliation": "Agency for Toxic Substances and Disease Registry",
+            "photo": "https://static.wixstatic.com/media/ffaf03_71ef83ee63de4c688f15d0b98ccb73ba~mv2.jpg"
         },
         "jesse-goodrich": {
             "name": "Jesse Goodrich",
-            "affiliation": "University of South Carolina"
+            "affiliation": "University of South Carolina",
+            "photo": "https://static.wixstatic.com/media/ffaf03_e789a9760f0c4dc5a6813dea54e647b2~mv2.jpg"
         },
         "tobyn-mcnaughton": {
             "name": "Tobyn McNaughton",
-            "affiliation": "Impacted Community Member"
-        },
-        "brittany-rickard": {
-            "name": "Brittany Rickard",
-            "affiliation": "North Carolina State University"
+            "affiliation": "Impacted Community Member",
+            "photo": "https://static.wixstatic.com/media/ffaf03_e7b7fbe9333c4fae8166f0a58caef793~mv2.jpg"
         },
         "kevin-elliott": {
             "name": "Kevin Elliott",
-            "affiliation": "Michigan State University"
+            "affiliation": "Michigan State University",
+            "photo": "https://static.wixstatic.com/media/ffaf03_2425618a0ff7467ca04817107dc646ed~mv2.jpg"
         },
         "kyle-horton": {
             "name": "Kyle Horton",
-            "affiliation": "On Your Side Action"
+            "affiliation": "On Your Side Action",
+            "photo": "https://static.wixstatic.com/media/ffaf03_61f40da3f69a4cfc9b3f57a06a7294d1~mv2.jpg"
         },
         "david-collier": {
             "name": "David Collier",
-            "affiliation": "East Carolina University"
+            "affiliation": "East Carolina University",
+            "photo": "https://static.wixstatic.com/media/ffaf03_4fcfa323e8054a6a9ceb70c0b70e7098~mv2.jpg"
         },
         "marcos-a-orellana": {
             "name": "Marcos A. Orellana",
@@ -442,21 +462,24 @@
         },
         "lida-chatzi": {
             "name": "Lida Chatzi",
-            "affiliation": "University of Southern California"
+            "affiliation": "University of Southern California",
+            "photo": "https://static.wixstatic.com/media/ffaf03_270dea8cee8b493aaafae57a84874f34~mv2.jpg"
         },
         "emily-donovan": {
             "name": "Emily Donovan",
             "affiliation": "Clean Cape Fear",
             "bio": "Emily Donovan is a community organizer and activist who has been working to raise awareness about PFAS contamination in North Carolina. She is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.",
-            "photo": "https://static.wixstatic.com/media/ffaf03_c530ff318f484957897dd2c43ea935d4~mv2.jpg/v1/fit/w_743,h_825,q_90/ffaf03_c530ff318f484957897dd2c43ea935d4~mv2.jpg"
+            "photo": "https://static.wixstatic.com/media/ffaf03_c0360e37a702405d930272b3a39c999e~mv2.jpg"
         },
         "scott-faber": {
             "name": "Scott Faber",
-            "affiliation": "Environmental Working Group"
+            "affiliation": "Environmental Working Group",
+            "photo": "https://static.wixstatic.com/media/ffaf03_661cb8aa84ed4a13a63f9e5764820fa7~mv2.jpg"
         },
         "lieselot-bisschop": {
             "name": "Lieselot Bisschop",
-            "affiliation": "Eramus University Rotterdam"
+            "affiliation": "Eramus University Rotterdam",
+            "photo": "https://static.wixstatic.com/media/ffaf03_05760bb6053e48ff8583334d51d2e1c3~mv2.jpg"
         },
         "neil-mcmillan": {
             "name": "Neil McMillan",
@@ -464,11 +487,13 @@
         },
         "denise-trabbic-pointer": {
             "name": "Denise Trabbic-Pointer",
-            "affiliation": "formerly DuPont"
+            "affiliation": "formerly DuPont",
+            "photo": "https://static.wixstatic.com/media/ffaf03_0572bb51533b4aa292806137fcf4b615~mv2.jpg"
         },
         "kris-hansen": {
             "name": "Kris Hansen",
-            "affiliation": "Savanna Science Consulting"
+            "affiliation": "Savanna Science Consulting",
+            "photo": "https://static.wixstatic.com/media/ffaf03_960c1a2757e14507baefc8cb85a79b7f~mv2.jpg"
         },
         "tim-whitehouse": {
             "name": "Tim Whitehouse",
@@ -476,7 +501,8 @@
         },
         "mark-strynar": {
             "name": "Mark Strynar",
-            "affiliation": "Environmental Protection Agency"
+            "affiliation": "Environmental Protection Agency",
+            "photo": "https://static.wixstatic.com/media/ffaf03_2ca4e3801a2942449dc0dec4d57743e6~mv2.jpg"
         },
         "detlef-knappe": {
             "name": "Detlef Knappe",
@@ -488,27 +514,33 @@
         },
         "dave-reap": {
             "name": "Dave Reap",
-            "affiliation": "Kelley Drye & Warren, LLP"
+            "affiliation": "Kelley Drye & Warren, LLP",
+            "photo": "https://static.wixstatic.com/media/ffaf03_0d85cf3521a9482eae3e8e9d47de6e1e~mv2.jpg"
         },
         "juliane-gluege": {
             "name": "Juliane Glüge",
-            "affiliation": "ETH Zurich"
+            "affiliation": "ETH Zurich",
+            "photo": "https://static.wixstatic.com/media/ffaf03_4b7252e62324407599decf041e81770e~mv2.jpg"
         },
         "jennifer-guelfo": {
             "name": "Jennifer Guelfo",
-            "affiliation": "Texas Tech University"
+            "affiliation": "Texas Tech University",
+            "photo": "https://static.wixstatic.com/media/ffaf03_3cd73a379a7c49e7899ced7bc2d084f1~mv2.jpg"
         },
         "jamie-dewitt": {
             "name": "Jamie DeWitt",
-            "affiliation": "Oregon State University"
+            "affiliation": "Oregon State University",
+            "photo": "https://static.wixstatic.com/media/ffaf03_cbd57833d6fd4552ac122043221f9950~mv2.jpg"
         },
         "mark-rossi": {
             "name": "Mark Rossi",
-            "affiliation": "Clean Production Action"
+            "affiliation": "Clean Production Action",
+            "photo": "https://static.wixstatic.com/media/ffaf03_6b10edc5712d436d942368a57946a029~mv2.jpg"
         },
         "lenny-siegel": {
             "name": "Lenny Siegel",
-            "affiliation": "Center for Public Environmental Oversight"
+            "affiliation": "Center for Public Environmental Oversight",
+            "photo": "https://static.wixstatic.com/media/ffaf03_25a5a37b144742469b0727ca9ffbd473~mv2.jpg"
         }
     }
 }
