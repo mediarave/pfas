@@ -33,28 +33,36 @@
             //    Robb Kerr, Great Lakes PFAS Action Network, Wolfpack
             //    Sandy Wynn-Stelt, Great Lakes PFAS Action Network
             // 9:00-9:30 am	Keynote	Keynote Presentation
+            //   Dan Kildee, U.S. Representative
             //   Debbie Dingell, U.S. Representative
             // 9:30-10:40 am	Session1	The Michigan Story
-            //   Bob Delaney, PFAS Alliance
+            //   Robert Delaney, Need Our Water
             //   Garret Ellison, MLive
             //   Tony Spaniola, Great Lakes PFAS Action Network
             //   Sandy Wynn-Stelt, Great Lakes PFAS Action Network
             // 10:40-11:00 am	Break
-            // 11:00 am-12:10 pm	Session 2	PFAS Policy initiatives: Federal and State Responses
-            //   Anna Reade, The National Resources Defense Council
-            //   Phil Roos, Environment, Great Lakes, and Energy – State of Michigan
-            //   Dana   Strande, Community Member
+            // 11:00 am-12:10 pm	Session 2	PFAS Policy Initiatives: Federal and State Responses
+            //   Dana Fath Strande, Community Member
+            //   Anna Reade, National Resources Defense Council
+            //   Phil Roos, Michigan Department of Environment, Great Lakes, and Energy
+            //   Alexis Lan, Environmental Protection Agency
+            //   Brittany Jacobs, Environmental Protection Agency
+
             // 12:10-1:30 pm	Lunch
             // 1:30-2:00 pm	KEYNOTE:	Whole of Government approach moving forward
             //   Radhika Fox, North Star Strategy
             // 2:00-3:10 pm	Session 3	Tools for Equitable Research Partnerships with the Association for Advancing Participatory Science
+            //   Linda Shosie, Environmental Justice Working Group
+            //   Margaret Gordon, West Oakland Environmental Indicators Project
+            //   Janice Hunter, West Oakland Environmental Indicators Project
+            //   Jahred Liddie, Harvard University
             //   Janice Hunter, West Oakland Indicator Project
-            //   Margaret Gordon, West Oakland Indicator Project
-            //  Linda Robles, Community Member
+            //   Jennifer Carrera, Michigan State University
             // 3:10-3:30 pm	Break
             // 3:30-4:40 pm	Session 4	Dietary Considerations of PFAS
             //   Jason Grostic, Great Lakes PFAS Action Network
             //   Bill Pluecker, Maine Organic Farmers Association
+            //   PingPing Meng, Eastern Carolina University
             // 4:40-6:10 pm	Poster Sessions	Poster Session and Strolling Dinner
             // 5:00 pm	Field Trip	Toxic tour - Kayak trip down Huron River
 
@@ -73,12 +81,12 @@
                 {
                     "time": "9:00 - 9:30",
                     "event": "Keynote Presentation",
-                    "presenters": ["debbie-dingell"]
+                    "presenters": ["dan-kildee", "debbie-dingell"]
                 },
                 {
                     "time": "9:30 - 10:40",
-                    "event": "The Michigan Story",
-                    "presenters": ["bob-delaney", "garret-ellison", "tony-spaniola", "sandy-wynn-stelt"]
+                    "event": "Session 1: The Michigan Story",
+                    "presenters": ["robert-delaney", "garret-ellison", "tony-spaniola", "sandy-wynn-stelt"]
                 },
                 {
                     "time": "10:40 - 11:00",
@@ -86,8 +94,8 @@
                 },
                 {
                     "time": "11:00 - 12:10",
-                    "event": "PFAS Policy initiatives: Federal and State Responses",
-                    "presenters": ["anna-reade", "phil-roos", "dana-strande"]
+                    "event": "Session 2: PFAS Policy Initiatives: Federal and State Responses",
+                    "presenters": ["dana-strande", "anna-reade", "phil-roos", "alexis-lan", "brittany-jacobs"]
                 },
                 {
                     "time": "12:10 - 1:30",
@@ -95,13 +103,18 @@
                 },
                 {
                     "time": "1:30 - 2:00",
-                    "event": "Keynote: Whole of Government approach moving forward",
-                    "presenters": ["radhika-fox"]
+                    "event": "Keynote Presentation"
                 },
                 {
                     "time": "2:00 - 3:10",
-                    "event": "Tools for Equitable Research Partnerships with the Association for Advancing Participatory Science",
-                    "presenters": ["janice-hunter", "margaret-gordon", "linda-robles"]
+                    "event": "Session 3: Tools for Equitable Research Partnerships with the Association for Advancing Participatory Science",
+                    "presenters": [
+                        "linda-shosie",
+                        "margaret-gordon",
+                        "janice-hunter",
+                        "jahred-liddie",
+                        "jennifer-carrera"
+                    ]
                 },
                 {
                     "time": "3:10 - 3:30",
@@ -109,8 +122,8 @@
                 },
                 {
                     "time": "3:30 - 4:40",
-                    "event": "Dietary Considerations of PFAS",
-                    "presenters": ["jason-grostic", "bill-pluecker"]
+                    "event": "Session 4: Dietary Considerations of PFAS",
+                    "presenters": ["jason-grostic", "bill-pluecker", "pingping-meng"]
                 },
                 {
                     "time": "4:40 - 6:10",
@@ -129,8 +142,8 @@
             // Rachel Rogers, Agency for Toxic Substances and Disease Registry
             // 9:30-10:40 am	Session1	New Discoveries in PFAS Health Effects
             //   Jesse Goodrich, University of South Carolina
-            //   Tobyn McNaughton, Great Lakes PFAS Action Network
-            //   Brittney Ricard, North Carolina State University
+            //   Tobyn McNaughton, Impacted Community Member
+            //   Brittany Rickard, North Carolina State University
             // 10:40-11:00 am	Break
             // 11:00 am-12:10 pm	Session 2	Guidance for Clinicians
             //   Courtney Carignan, Michigan State University
@@ -167,7 +180,7 @@
                 {
                     "time": "9:30 - 10:40",
                     "event": "New Discoveries in PFAS Health Effects",
-                    "presenters": ["jesse-goodrich", "tobyn-mcnaughton", "brittney-ricard"]
+                    "presenters": ["jesse-goodrich", "tobyn-mcnaughton", "brittany-rickard"]
                 },
                 {
                     "time": "10:40 - 11:00",
@@ -311,9 +324,9 @@
             "name": "Debbie Dingell",
             "affiliation": "U.S. Representative"
         },
-        "bob-delaney": {
-            "name": "Bob Delaney",
-            "affiliation": "PFAS Alliance"
+        "robert-delaney": {
+            "name": "Robert Delaney",
+            "affiliation": "Need Our Water"
         },
         "garret-ellison": {
             "name": "Garret Ellison",
@@ -327,15 +340,23 @@
         },
         "anna-reade": {
             "name": "Anna Reade",
-            "affiliation": "The National Resources Defense Council"
+            "affiliation": "National Resources Defense Council"
         },
         "phil-roos": {
             "name": "Phil Roos",
-            "affiliation": "Environment, Great Lakes, and Energy - State of Michigan"
+            "affiliation": "Michigan Department of Environment, Great Lakes, and Energy"
         },
         "dana-strande": {
-            "name": "Dana Strande",
+            "name": "Dana Fath Strande",
             "affiliation": "Community Member"
+        },
+        "alexis-lan": {
+            "name": "Alexis Lan",
+            "affiliation": "Environmental Protection Agency"
+        },
+        "brittany-jacobs": {
+            "name": "Brittany Jacobs",
+            "affiliation": "Environmental Protection Agency"
         },
         "radhika-fox": {
             "name": "Radhika Fox",
@@ -344,15 +365,23 @@
         },
         "janice-hunter": {
             "name": "Janice Hunter",
-            "affiliation": "West Oakland Indicator Project"
+            "affiliation": "West Oakland Environmental Indicators Project"
+        },
+        "jahred-liddie": {
+            "name": "Jahred Liddie",
+            "affiliation": "Harvard University"
+        },
+        "jennifer-carrera": {
+            "name": "Jennifer Carrera",
+            "affiliation": "Michigan State University"
         },
         "margaret-gordon": {
             "name": "Margaret Gordon",
-            "affiliation": "West Oakland Indicator Project"
+            "affiliation": "West Oakland Environmental Indicators Project"
         },
-        "linda-robles": {
-            "name": "Linda Robles",
-            "affiliation": "Community Member"
+        "linda-shosie": {
+            "name": "Linda Shosie",
+            "affiliation": "Environmental Justice Working Group"
         },
         "jason-grostic": {
             "name": "Jason Grostic",
@@ -362,7 +391,10 @@
             "name": "Bill Pluecker",
             "affiliation": "Maine Organic Farmers Association"
         },
-
+        "pingping-meng": {
+            "name": "PingPing Meng",
+            "affiliation": "Eastern Carolina University"
+        },
         "rachel-rogers": {
             "name": "Rachel Rogers",
             "affiliation": "Agency for Toxic Substances and Disease Registry"
@@ -373,11 +405,7 @@
         },
         "tobyn-mcnaughton": {
             "name": "Tobyn McNaughton",
-            "affiliation": "Great Lakes PFAS Action Network"
-        },
-        "brittney-ricard": {
-            "name": "Brittney Ricard",
-            "affiliation": "North Carolina State University"
+            "affiliation": "Impacted Community Member"
         },
         "kevin-elliott": {
             "name": "Kevin Elliott",
