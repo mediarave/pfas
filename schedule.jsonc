@@ -36,10 +36,10 @@
             //   Dan Kildee, U.S. Representative
             //   Debbie Dingell, U.S. Representative
             // 9:30-10:40 am	Session1	The Michigan Story
-            //   Robert Delaney, Need Our Water
-            //   Garret Ellison, MLive
-            //   Tony Spaniola, Great Lakes PFAS Action Network
-            //   Sandy Wynn-Stelt, Great Lakes PFAS Action Network
+            // Tony Spaniola, Great Lakes PFAS Action Network
+            // Sandy Wynn-Stelt, Great Lakes PFAS Action Network
+            // Robert Delaney, Need Our Water
+            // Garret Ellison, MLive
             // 10:40-11:00 am	Break
             // 11:00 am-12:10 pm	Session 2	PFAS Policy Initiatives: Federal and State Responses
             //   Dana Fath Strande, Community Member
@@ -85,7 +85,7 @@
                 {
                     "time": "9:30 - 10:40",
                     "event": "Session 1: The Michigan Story",
-                    "presenters": ["robert-delaney", "garret-ellison", "tony-spaniola", "sandy-wynn-stelt"]
+                    "presenters": ["tony-spaniola", "sandy-wynn-stelt", "robert-delaney", "garret-ellison"]
                 },
                 {
                     "time": "10:40 - 11:00",
@@ -140,15 +140,16 @@
             // 9:00-9:30 am	KEYNOTE:	Keynote Presentation
             // Rachel Rogers, Agency for Toxic Substances and Disease Registry
             // 9:30-10:40 am	Session1	New Discoveries in PFAS Health Effects
-            //   Jesse Goodrich, University of South Carolina
-            //   Tobyn McNaughton, Impacted Community Member
-            //   Brittany Rickard, North Carolina State University
+            // Tobyn McNaughton, Impacted Community Member
+            // Jesse Goodrich, University of South Carolina
+            // Brittany Rickard, North Carolina State University
             // 10:40-11:00 am	Break
             // 11:00 am-12:10 pm	Session 2	Guidance for Clinicians
-            //   Courtney Carignan, Michigan State University
-            //   Kevin Elliott, Michigan State University
-            //   Kyle Horton, On Your Side Action
-            //   David Collier, East Carolina University
+            // Kyle Horton, On Your Side Action
+            // Kevin Elliott, Michigan State University
+            // David Collier, East Carolina University
+            // Courtney Carignan, Michigan State University
+
             // 12:10-1:30 pm	Lunch
             // 1:30-2:00 pm	KEYNOTE:	Special Rapporteur on Toxics and Human Rights
             // Marcos A. Orellana, United Nations
@@ -176,13 +177,13 @@
                 },
                 {
                     "time": "9:00 - 9:30",
-                    "event": "Keynote Presentation",
+                    "event": "Keynote Presentation: Establishing Patient Care for Exposed Communities",
                     "presenters": ["rachel-rogers"]
                 },
                 {
                     "time": "9:30 - 10:40",
                     "event": "Session 1: New Discoveries in PFAS Health Effects",
-                    "presenters": ["jesse-goodrich", "tobyn-mcnaughton", "brittany-rickard"]
+                    "presenters": ["tobyn-mcnaughton", "jesse-goodrich", "brittany-rickard"]
                 },
                 {
                     "time": "10:40 - 11:00",
@@ -191,7 +192,7 @@
                 {
                     "time": "11:00 - 12:10",
                     "event": "Session 2: Guidance for Clinicians",
-                    "presenters": ["courtney-carignan", "kevin-elliott", "kyle-horton", "david-collier"]
+                    "presenters": ["kyle-horton", "kevin-elliott", "david-collier", "courtney-carignan"]
                 },
                 {
                     "time": "12:10 - 1:30",
@@ -331,6 +332,10 @@
             "affiliation": "Great Lakes PFAS Action Network",
             "bio": "Sandy Wynn-Stelt is a member of the Great Lakes PFAS Action Network. She has been working to raise awareness about PFAS contamination in the Great Lakes region and is dedicated to protecting the environment and public health from the harmful effects of PFAS chemicals. She is a passionate advocate for clean water and has been working to ensure that communities have access to safe drinking water.",
             "photo": "https://static.wixstatic.com/media/ffaf03_022577a7113b4690b698f5791b4f25b7~mv2.jpeg/v1/fit/w_743,h_825,q_90/ffaf03_022577a7113b4690b698f5791b4f25b7~mv2.jpeg"
+        },
+        "dan-kildee": {
+            "name": "Dan Kildee",
+            "affiliation": "U.S. Representative"
         },
         "debbie-dingell": {
             "name": "Debbie Dingell",
