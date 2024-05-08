@@ -16,10 +16,8 @@
                     "event": "Toxic Tour-Detroit 48217 zip code"
                 },
                 {
-                    "time": "7:00 - 9:00",
-                    "event": "Pre-conference reception",
-                    "presenters": ["rob-bilott"],
-                    "description": "Presentation and book signing"
+                    "time": "6:00 - 9:00",
+                    "event": "Pre-Conference Reception / Celebration"
                 }
             ]
         },
@@ -33,8 +31,8 @@
             //    Robb Kerr, Great Lakes PFAS Action Network, Wolfpack
             //    Sandy Wynn-Stelt, Great Lakes PFAS Action Network
             // 9:00-9:30 am	Keynote	Keynote Presentation
-            //   Dan Kildee, U.S. Representative
             //   Debbie Dingell, U.S. Representative
+            //   Dan Kildee, U.S. Representative
             // 9:30-10:40 am	Session1	The Michigan Story
             // Tony Spaniola, Great Lakes PFAS Action Network
             // Sandy Wynn-Stelt, Great Lakes PFAS Action Network
@@ -61,6 +59,7 @@
             // 3:30-4:40 pm	Session 4	Dietary Considerations of PFAS
             //   Jason Grostic, Great Lakes PFAS Action Network
             //   Bill Pluecker, Maine Organic Farmers Association
+            //   Allison Small, National PFAS Contamination Coalition
             //   PingPing Meng, Eastern Carolina University
             // 4:40-6:10 pm	Poster Sessions	Poster Session and Strolling Dinner
             // 5:00 pm	Field Trip	Toxic tour - Kayak trip down Huron River
@@ -80,7 +79,7 @@
                 {
                     "time": "9:00 - 9:30",
                     "event": "Keynote Presentation",
-                    "presenters": ["dan-kildee", "debbie-dingell"]
+                    "presenters": ["debbie-dingell", "dan-kildee"]
                 },
                 {
                     "time": "9:30 - 10:40",
@@ -106,14 +105,8 @@
                 },
                 {
                     "time": "2:00 - 3:10",
-                    "event": "Session 3: Tools for Equitable Research Partnerships with the Association for Advancing Participatory Science",
-                    "presenters": [
-                        "linda-shosie",
-                        "margaret-gordon",
-                        "janice-hunter",
-                        "jahred-liddie",
-                        "jennifer-carrera"
-                    ]
+                    "event": "Session 3: Tools to Address Environmental Justice Gaps",
+                    "presenters": ["margaret-gordon", "jahred-liddie", "jennifer-carrera"]
                 },
                 {
                     "time": "3:10 - 3:30",
@@ -122,7 +115,7 @@
                 {
                     "time": "3:30 - 4:40",
                     "event": "Session 4: Dietary Considerations of PFAS",
-                    "presenters": ["jason-grostic", "bill-pluecker", "pingping-meng"]
+                    "presenters": ["jason-grostic", "bill-pluecker", "allison-small", "pingping-meng"]
                 },
                 {
                     "time": "4:40 - 6:10",
@@ -142,13 +135,14 @@
             // 9:30-10:40 am	Session1	New Discoveries in PFAS Health Effects
             // Tobyn McNaughton, Impacted Community Member
             // Jesse Goodrich, University of South Carolina
+            // Jackie Goodrich, University of Michigan
             // Brittany Rickard, North Carolina State University
             // 10:40-11:00 am	Break
             // 11:00 am-12:10 pm	Session 2	Guidance for Clinicians
-            // Kyle Horton, On Your Side Action
+            // Jennifer Rawlison, Newburgh Clean Water Project
             // Kevin Elliott, Michigan State University
             // David Collier, East Carolina University
-            // Courtney Carignan, Michigan State University
+            // Kyle Horton, On Your Side Action
 
             // 12:10-1:30 pm	Lunch
             // 1:30-2:00 pm	KEYNOTE:	Special Rapporteur on Toxics and Human Rights
@@ -162,8 +156,8 @@
             // 3:10-3:30 pm	Break
             // 3:30-4:40 pm	Session 4	Worker Rights and Protections
             //   Tim Whitehouse, Public Employees for Environmental Responsibility
-            //   Denise Trabbic-Pointer, formerly DuPont
-            //   Kris Hansen, Savanna Science Consulting
+            //   Denise Trabbic-Pointer, formerly DuPont worker
+            //   Kris Hansen, former 3M worker
             //   Neil McMillan, International Association of Fire Fighters
             // 4:40-6:10 pm	Poster Sessions	Poster Session and Strolling Dinner
             // 5:00 pm	**Field Trip	RAIN DATE:  Toxic tour-Kayak trip down Huron River
@@ -183,7 +177,7 @@
                 {
                     "time": "9:30 - 10:40",
                     "event": "Session 1: New Discoveries in PFAS Health Effects",
-                    "presenters": ["tobyn-mcnaughton", "jesse-goodrich", "brittany-rickard"]
+                    "presenters": ["tobyn-mcnaughton", "jesse-goodrich", "jackie-goodrich", "brittany-rickard"]
                 },
                 {
                     "time": "10:40 - 11:00",
@@ -192,7 +186,7 @@
                 {
                     "time": "11:00 - 12:10",
                     "event": "Session 2: Guidance for Clinicians",
-                    "presenters": ["kyle-horton", "kevin-elliott", "david-collier", "courtney-carignan"]
+                    "presenters": ["jennifer-rawlison", "kevin-elliott", "david-collier", "kyle-horton"]
                 },
                 {
                     "time": "12:10 - 1:30",
@@ -295,7 +289,6 @@
                         "Educational outreach for K-12 students on PFAS",
                         "PFAS at Military Installations",
                         "Community Mapping",
-                        "Impacts on farming communities and related mental health concerns",
                         "Effective strategies for public communications",
                         "Community-Driven Health Survey"
                     ]
@@ -438,6 +431,10 @@
             "bio": "Bill Pluecker has been a farmer for almost 20 years now, growing vegetables for his Community Supported Agriculture program and local wholesale markets. He is currently Chair of the Agriculture, Conservation, and Forestry Committee in the Maine State House where he has worked on diverse PFAS legislation. He is also a Public Policy Organizer for Maine Organic Farmers and Gardeners Association focusing on national PFAS policy, and helping legislators from other states that are interested in PFAS policy.",
             "photo": "https://static.wixstatic.com/media/ffaf03_8ee72babbb6541f6aa0b38366e29a1e8~mv2.jpg"
         },
+        "allison-small": {
+            "name": "Allison Small",
+            "affiliation": "National PFAS Contamination Coalition"
+        },
         "pingping-meng": {
             "name": "PingPing Meng",
             "affiliation": "Eastern Carolina University",
@@ -456,11 +453,19 @@
             "bio": "Jesse Goodrich is an Assistant Professor of Population and Public Health Sciences in the Division of Environmental Health and a member of the Norris Comprehensive Cancer Center at the Keck School of Medicine at the University of Southern California. Specializing in environmental epidemiology, data science, and physiology, his research focuses on uncovering the negative health impacts of PFAS and other environmental chemicals, particularly among racial/ethnic minorities and other vulnerable groups. By applying state of the art molecular biology techniques into his epidemiological studies, he seeks to understand the biological processes through which PFAS cause health issues. By understanding the mechanisms of PFAS associated adverse health effects, his research aims to develop methods to help identify individuals at highest risk of PFAS induced liver and kidney disease and to inform on new strategies to mitigate PFAS-related health risks in underserved populations.",
             "photo": "https://static.wixstatic.com/media/ffaf03_e789a9760f0c4dc5a6813dea54e647b2~mv2.jpg"
         },
+        "jackie-goodrich": {
+            "name": "Jackie Goodrich",
+            "affiliation": "University of Michigan"
+        },
         "tobyn-mcnaughton": {
             "name": "Tobyn McNaughton",
             "affiliation": "Impacted Community Member",
             "bio": "Tobyn has lived in Plainfield Township, Michigan her whole life, save 1 year that she was a 4th grade teacher in Kansas. She married her husband in 2014. She is a mother to 2 boys, one born in 2016 and the other in 2020. She worked as an elementary teacher for 7 years but now stays home with her children and 2 dogs. Tobyn loves being home in the house that was purchased in 2012 to start a life. However, her sanctuary was tarnished by the fact that 20 times the EPA limit of PFAS was found in the drinking well there in 2017. Since then, she has felt the need to take up a torch of advocacy work and spreading awareness of why and how PFAS is toxic. She has spoken to Representatives and Senators at both State and Federal levels. She has done a lot of work with the media and has attended conferences and panels regarding PFAS. She joined the Community Advisory Group in February of 2022 to help her community address this home-town as well as global issue.",
             "photo": "https://static.wixstatic.com/media/ffaf03_e7b7fbe9333c4fae8166f0a58caef793~mv2.jpg"
+        },
+        "jennifer-rawlison": {
+            "name": "Jennifer Rawlison",
+            "affiliation": "Newburgh Clean Water Project"
         },
         "kevin-elliott": {
             "name": "Kevin Elliott",
@@ -515,13 +520,13 @@
         },
         "denise-trabbic-pointer": {
             "name": "Denise Trabbic-Pointer",
-            "affiliation": "formerly DuPont",
+            "affiliation": "formerly DuPont worker",
             "bio": "Denise Trabbic-Pointer is a Chemical Engineer with a BS and MS in Hazardous Materials Management, a career EHS professional and a Certified Hazardous Material Manager (CHMM) Emeritus.  Her education and EHS career included an emphasis in the health impacts and effects of exposure to chemicals in the workplace.  Ms. Trabbic-Pointer retired in January 2019 after 42 years with DuPont. The last 7 years were with a spin-off company, Axalta Coating Systems, as their Global Environmental Competency Leader. Since May 2019, Ms. Trabbic-Pointer has been the Sierra Club – Michigan Chapter, Toxics & Remediation Specialist, and volunteers nationally as a technical resource for communities impacted by releases of toxics to air, water and/or soil.",
             "photo": "https://static.wixstatic.com/media/ffaf03_0572bb51533b4aa292806137fcf4b615~mv2.jpg"
         },
         "kris-hansen": {
             "name": "Kris Hansen",
-            "affiliation": "Savanna Science Consulting",
+            "affiliation": "former 3M worker",
             "bio": "<p>Following graduate school and a post-doctoral research position with NOAA, Kris started work as an Analytical Chemist in 3M’s Environmental Lab in 1996, leveraging her experience in trace level analysis to work on a variety of 3M challenges 3M.  In 1997, Kris and her team “discovered” the global contamination of PFAS, specifically via 3M’s signature PFAS molecule, PFOS, first in the blood of the general population and then in the broader environment, including water, birds, fish and mammals.  Within a year, the team had identified and characterized over a dozen PFAS compounds in the environment.  During the next 3 years (through 2001), Kris provided technical leadership pursuing the extent and sources of PFAS contamination within a high stress and highly political environment at 3M.</p> <p>In consensus with 3M lab management and amidst an increasingly confined work environment, Kris left the Environmental Lab in 2001 to pursue other opportunities within 3M.   Following review of now public disclosures from 3M (specifically, those available via the Attorney General of MN following settlement of 2018 litigation between 3M and Minnesota), Kris began to document examples of “unseen” and “undone” science perpetrated in what she perceives to be 3M’s quest to manufacture doubt around their role in creating and covering up 3M’s role in PFAS global contamination.</p> <p>As a new employee working as an “outsider” inside 3M, Kris experienced anxiety, fear, and self doubt resulting from persistent questions about her loyalty, competence, and integrity and from what she perceived as intentional misdirection from company leadership.</p>",
             "photo": "https://static.wixstatic.com/media/ffaf03_960c1a2757e14507baefc8cb85a79b7f~mv2.jpg"
         },
