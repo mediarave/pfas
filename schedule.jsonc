@@ -74,17 +74,17 @@
                 {
                     "time": "8:45 - 9:00",
                     "event": "Welcome",
-                    "presenters": ["santa-ono", "courtney-carignan", "robb-kerr", "sandy-wynn-stelt"]
+                    "presenters": ["courtney-carignan", "robb-kerr", "sandy-wynn-stelt"]
                 },
                 {
                     "time": "9:00 - 9:30",
                     "event": "Keynote Presentation",
-                    "presenters": ["debbie-dingell", "dan-kildee"]
+                    "presenters": ["debbie-dingell", "dan-kildee", "santa-ono"]
                 },
                 {
                     "time": "9:30 - 10:40",
                     "event": "Session 1: The Michigan Story",
-                    "presenters": ["tony-spaniola", "sandy-wynn-stelt", "robert-delaney", "garret-ellison"]
+                    "presenters": ["tony-spaniola", "robert-delaney", "sandy-wynn-stelt", "garret-ellison"]
                 },
                 {
                     "time": "10:40 - 11:00",
@@ -97,7 +97,12 @@
                 },
                 {
                     "time": "12:10 - 1:30",
-                    "event": "Lunch"
+                    "event": "Lunch and Learn Sessions",
+                    "details": [
+                        "Conversation with Arlene Blum from Green Science Policy",
+                        "Conversation with Michael Tisbury from Fire Rescue Victoria",
+                        "PFAS Elimination in Blood with Courtney Carignan"
+                    ]
                 },
                 {
                     "time": "1:30 - 2:00",
@@ -186,11 +191,12 @@
                 {
                     "time": "11:00 - 12:10",
                     "event": "Session 2: Guidance for Clinicians",
-                    "presenters": ["jennifer-rawlison", "kevin-elliott", "david-collier", "kyle-horton"]
+                    "presenters": ["jennifer-rawlison", "kevin-elliott", "david-collier", "courtney-carignan"]
                 },
                 {
                     "time": "12:10 - 1:30",
-                    "event": "Lunch"
+                    "event": "Lunch and Learn Sessions",
+                    "details": ["Perspectives from Underserved Communities", "Ask the Lawyers with Varnum Law"]
                 },
                 {
                     "time": "1:30 - 2:00",
