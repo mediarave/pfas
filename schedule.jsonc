@@ -72,14 +72,14 @@
                     "event": "Breakfast and Registration"
                 },
                 {
-                    "time": "8:45 - 9:00",
-                    "event": "Welcome",
-                    "presenters": ["courtney-carignan", "robb-kerr", "sandy-wynn-stelt"]
+                    "time": "8:45 - 9:30",
+                    "event": "Brief Welcome",
+                    "presenters": ["debbie-dingell", "dan-kildee", "santa-ono"]
                 },
                 {
-                    "time": "9:00 - 9:30",
-                    "event": "Keynote Presentation",
-                    "presenters": ["debbie-dingell", "dan-kildee", "santa-ono"]
+                    "heading": "2024 National PFAS Conference Co-Chairs",
+                    "event": "Orientation to the Conference",
+                    "presenters": ["courtney-carignan", "robb-kerr", "sandy-wynn-stelt"]
                 },
                 {
                     "time": "9:30 - 10:40",
