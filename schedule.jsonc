@@ -60,7 +60,7 @@
             //   Jason Grostic, Great Lakes PFAS Action Network
             //   Bill Pluecker, Maine Organic Farmers Association
             //   Allison Jumper, National PFAS Contamination Coalition
-            //   PingPing Meng, Eastern Carolina University
+            //   PingPing Meng, East Carolina University
             // 4:40-6:10 pm	Poster Sessions	Poster Session and Strolling Dinner
             // 5:00 pm	Field Trip	Toxic tour - Kayak trip down Huron River
 
@@ -100,7 +100,6 @@
                     "event": "Lunch and Learn Sessions",
                     "details": [
                         "Conversation with Arlene Blum from Green Science Policy",
-                        "Conversation with Michael Tisbury from Fire Rescue Victoria",
                         "PFAS Elimination in Blood with Courtney Carignan"
                     ]
                 },
@@ -139,7 +138,7 @@
             // Rachel Rogers, Agency for Toxic Substances and Disease Registry
             // 9:30-10:40 am	Session1	New Discoveries in PFAS Health Effects
             // Tobyn McNaughton, Impacted Community Member
-            // Jesse Goodrich, University of South Carolina
+            // Jesse Goodrich, University of Southern Carolina
             // Jackie Goodrich, University of Michigan
             // Brittany Rickard, North Carolina State University
             // 10:40-11:00 am	Break
@@ -453,7 +452,7 @@
         },
         "pingping-meng": {
             "name": "PingPing Meng",
-            "affiliation": "Eastern Carolina University",
+            "affiliation": "East Carolina University",
             "bio": "Dr. Pingping Meng is an assistant professor at East Carolina University. Before joining ECU in 2023, Pingping completed a four-year postdoctoral training at North Carolina State University, working with Dr. Detlef Knappe. Her research focuses on the occurrence, transport, human exposure, and remediation of per- and polyfluoroalkyl substances (PFAS) in the environment. ",
             "photo": "https://static.wixstatic.com/media/ffaf03_718f15a960464383bf6330c9cf0315ea~mv2.jpg"
         },
@@ -465,7 +464,7 @@
         },
         "jesse-goodrich": {
             "name": "Jesse Goodrich",
-            "affiliation": "University of South Carolina",
+            "affiliation": "University of Southern Carolina",
             "bio": "Jesse Goodrich is an Assistant Professor of Population and Public Health Sciences in the Division of Environmental Health and a member of the Norris Comprehensive Cancer Center at the Keck School of Medicine at the University of Southern California. Specializing in environmental epidemiology, data science, and physiology, his research focuses on uncovering the negative health impacts of PFAS and other environmental chemicals, particularly among racial/ethnic minorities and other vulnerable groups. By applying state of the art molecular biology techniques into his epidemiological studies, he seeks to understand the biological processes through which PFAS cause health issues. By understanding the mechanisms of PFAS associated adverse health effects, his research aims to develop methods to help identify individuals at highest risk of PFAS induced liver and kidney disease and to inform on new strategies to mitigate PFAS-related health risks in underserved populations.",
             "photo": "https://static.wixstatic.com/media/ffaf03_e789a9760f0c4dc5a6813dea54e647b2~mv2.jpg"
         },
