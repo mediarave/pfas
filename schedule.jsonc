@@ -43,7 +43,7 @@
             //   Dana Fath Strande, Community Member
             //   Anna Reade, National Resources Defense Council
             //   Phil Roos, Michigan Department of Environment, Great Lakes, and Energy
-            //   Alexis Lan, Environmental Protection Agency
+            //   Alex Lan, Environmental Protection Agency
             //   Brittany Jacobs, Environmental Protection Agency
 
             // 12:10-1:30 pm	Lunch
@@ -59,7 +59,7 @@
             // 3:30-4:40 pm	Session 4	Dietary Considerations of PFAS
             //   Jason Grostic, Great Lakes PFAS Action Network
             //   Bill Pluecker, Maine Organic Farmers Association
-            //   Allison Small, National PFAS Contamination Coalition
+            //   Allison Jumper, National PFAS Contamination Coalition
             //   PingPing Meng, Eastern Carolina University
             // 4:40-6:10 pm	Poster Sessions	Poster Session and Strolling Dinner
             // 5:00 pm	Field Trip	Toxic tour - Kayak trip down Huron River
@@ -93,7 +93,7 @@
                 {
                     "time": "11:00 - 12:10",
                     "event": "Session 2: PFAS Policy Initiatives: Federal and State Responses",
-                    "presenters": ["dana-strande", "anna-reade", "phil-roos", "alexis-lan", "brittany-jacobs"]
+                    "presenters": ["dana-strande", "anna-reade", "phil-roos", "alex-lan", "brittany-jacobs"]
                 },
                 {
                     "time": "12:10 - 1:30",
@@ -120,7 +120,7 @@
                 {
                     "time": "3:30 - 4:40",
                     "event": "Session 4: Dietary Considerations of PFAS",
-                    "presenters": ["jason-grostic", "bill-pluecker", "allison-small", "pingping-meng"]
+                    "presenters": ["jason-grostic", "bill-pluecker", "allison-jumper", "pingping-meng"]
                 },
                 {
                     "time": "4:40 - 6:10",
@@ -334,11 +334,15 @@
         },
         "dan-kildee": {
             "name": "Dan Kildee",
-            "affiliation": "U.S. Representative"
+            "affiliation": "U.S. Representative",
+            "bio": "<p>Born and raised in Flint, Congressman Dan Kildee is a lifelong Michigander. In Congress, he has proven he will work with anyone to bring people together, focus on kitchen table issues and get results for mid-Michigan.</p> <p>Congressman Kildee serves on the Ways and Means Committee, the oldest and most powerful committee, and the Budget Committee. As a member of these committees, Congressman Kildee works to protect the earned benefits of Social Security and Medicare, lower the costs of health care premiums and prescription drugs, negotiate fair trade deals to ensure Michigan farmers and manufactures have a seat at the table and make sure our tax system benefits working families, not just the wealthy and well-connected.</p> <p>Congressman Kildee has led the fight to protect the Great Lakes by fully funding the Great Lakes Restoration Initiative (GLRI) and working to stop Canadians from burying nuclear waste less than a mile from the Great Lakes. He also co-chairs the bipartisan Congressional PFAS Task Force to more urgently clean up toxic PFAS chemicals. Congressman Kildee has secured federal funding to help communities remove every lead pipe and service line.</p> <p>Before being elected to Congress, Congressman Kildee co-founded and served as the president of the Center for Community Progress, a national non-profit organization focused on urban land reform and revitalization. He also founded Michigan's first land bank—the Genesee County Land Bank—which is responsible for tens of millions of dollars in redevelopment in Flint. The Genesee County Land Bank later served as a model for over 250 other land banks across the nation. Previously, Congressman Dan Kildee served as the Genesee County Treasurer, on the Genesee County Board of Commissioners and on the Flint Board of Education. Additionally, he worked for eight years at the Whaley Children's Center, a residential treatment facility in Flint for children who have experienced trauma and abuse.</p>",
+            "photo": "https://static.wixstatic.com/media/ffaf03_37fb51edc678423f86e567b404dc419c~mv2.jpg"
         },
         "debbie-dingell": {
             "name": "Debbie Dingell",
-            "affiliation": "U.S. Representative"
+            "affiliation": "U.S. Representative",
+            "bio": "<p>Congresswoman Debbie Dingell represents Michigan’s 6th Congressional District in the U.S. House of Representatives. She is a member of the Energy and Commerce Committee and the Natural Resources Committee.</p> <p>Growing up in beautiful Michigan, Dingell, who co-chairs the Great Lakes Task Force, has always been an advocate for the outdoors and commits her work in Congress to protecting the environment for generations. As Chair of the Heartland Caucus, Dingell leads a coalition of lawmakers to elevate and engage on issues facing Heartland communities.  Dingell is focused on bringing people together – in Congress and in her communities – to support Michigan’s families and the economy.</p> <p>Dingell has long led the fight against PFAS as the sponsor of the PFAS Action Act. The recent designation of PFOS and PFOA – two of the most widely used and notoriously harmful PFAS substances – as hazardous substances under the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), and announcement of the first-ever national drinking water standard for PFAS by the EPA are key pillars of Dingell’s bipartisan PFAS Action Act. Additionally, Dingell has introduced the Keep Food Containers Safe from PFAS Act, No PFAS in Cosmetics Act, and PFAS Alternatives Act. Dingell continues to work tirelessly in Congress and at home to address the growing urgent public health threat posed by PFAS.</p>",
+            "photo": "https://static.wixstatic.com/media/ffaf03_97a1c442e99b4f71a36f060a8888c68a~mv2.jpg"
         },
         "robert-delaney": {
             "name": "Robert Delaney",
@@ -376,13 +380,17 @@
             "bio": "Dana Fath Strande:  Mother, wife, friend, Episcopal Priest/Parish Pastor, and Environmental Justice Demander.  Dana and her husband Michael's oldest daughter, Amara Strande, died last year at the age of 20 from a rare liver cancer. Amara believed her cancer was a result of PFAS contamination in our groundwater. The Strandes live on the world's largest known underground plume, which covers 260 square miles on the east side of St. Paul. Shortly before Amara died, she testified to 4 MN legislature committees for a bill to restrict PFAS from manufacturing and non-essential products in MN.  The bill passed just days after Amara's death and MN lawmakers named it Amara's Law.  Dana, Michael, and their daughter, Nora Strande, continue the fight for a PFAS-free environment. Nora has been working especially hard lobbying for a National MCL Clean Water Standard, ending the use of PFAS in women's feminine products, and interns at MN Clean Water Action.  Dana considers herself a part of her 3 person family team that carries out the work of environmental justice in honor of Amara and for all generations now and to come.",
             "photo": "https://static.wixstatic.com/media/ffaf03_0c5a002f57424cb681aec916410923d9~mv2.jpg"
         },
-        "alexis-lan": {
-            "name": "Alexis Lan",
-            "affiliation": "Environmental Protection Agency"
+        "alex-lan": {
+            "name": "Alex Lan",
+            "affiliation": "Environmental Protection Agency",
+            "bio": "Alex Lan is a Physical Scientist and policy analyst in EPA’s Office of Water (OW), Office of Ground Water and Drinking Water (OGWDW), Standards and Risk Management Division (SRMD). He is actively working on drinking water issues related to per- and polyfluroalkyl substances (PFAS) and is the rule manager for the development of the National Primary Drinking Water Regulation for PFAS under the Safe Drinking Water Act. Previously at EPA, he served as a project lead on EPA’s Net Zero Initiative, focusing on cross-media issues relating to community sustainability, human health and resiliency. He has worked with diverse groups of national and international stakeholders to promote and transfer sustainable practices to communities across the U.S.  Alex graduated from the George Washington University where he has received a Master of Public Health in environmental health science and policy.",
+            "photo": "https://static.wixstatic.com/media/ffaf03_93811d9727654d93a648cf0abf0d6ef0~mv2.jpg"
         },
         "brittany-jacobs": {
             "name": "Brittany Jacobs",
-            "affiliation": "Environmental Protection Agency"
+            "affiliation": "Environmental Protection Agency",
+            "bio": "Brittany Jacobs is a biologist and team lead in the Human Health Risk Assessment Branch in the Office of Science and Technology, Office of Water at the U.S. Environmental Protection Agency. She joined EPA as a Presidential Management Fellow in August 2016 after completing her Ph.D. in Cell and Molecular Biology from the University of Wisconsin-Madison. Brittany has worked on projects supporting Safe Drinking Water Act actions and Clean Water Act actions, most notably the GenX chemicals toxicity assessment finalized in 2021 and the updated toxicity assessments for PFOA and PFOS finalized in 2024. Brittany co-led the effort to derive maximum contaminant level goals for PFOA and PFOS, which supported the National Primary Drinking Water Regulation for PFAS finalized in April 2024.",
+            "photo": "https://static.wixstatic.com/media/ffaf03_9b09fe0e017e4839914f11aa0b9f013d~mv2.jpg"
         },
         "brittany-rickard": {
             "name": "Brittany Rickard",
@@ -437,9 +445,11 @@
             "bio": "Bill Pluecker has been a farmer for almost 20 years now, growing vegetables for his Community Supported Agriculture program and local wholesale markets. He is currently Chair of the Agriculture, Conservation, and Forestry Committee in the Maine State House where he has worked on diverse PFAS legislation. He is also a Public Policy Organizer for Maine Organic Farmers and Gardeners Association focusing on national PFAS policy, and helping legislators from other states that are interested in PFAS policy.",
             "photo": "https://static.wixstatic.com/media/ffaf03_8ee72babbb6541f6aa0b38366e29a1e8~mv2.jpg"
         },
-        "allison-small": {
-            "name": "Allison Small",
-            "affiliation": "National PFAS Contamination Coalition"
+        "allison-jumper": {
+            "name": "Allison Jumper",
+            "affiliation": "National PFAS Contamination Coalition",
+            "bio": "<p>Allison Jumper is a community PFAS contamination awareness advocate and a member of the National PFAS Contamination Coalition. She and her family were highly exposed to PFAS by consuming food produced on PFAS contaminated farmland in Maine. Sludge contaminated with PFAS had been spread on that land in the 1990s. Since discovering her family’s PFAS exposure, Allison has worked to uncover the extent of PFAS contamination on farmland due to historic and current sludge/biosolids spreading practices, and to educate her immediate community about the health concerns that are related to food grown on land where PFAS contaminated sludge and biosolids has been spread.</p><p>Allison has a Bachelor of Arts from the College of the Holy Cross in Worcester, MA, and a Master of Arts in Teaching (Mathematics) from Providence College in Providence, RI.</p>",
+            "photo": "https://static.wixstatic.com/media/ffaf03_847e9f0c001040d3bfa9d4f1f2de1808~mv2.jpg"
         },
         "pingping-meng": {
             "name": "PingPing Meng",
@@ -589,6 +599,12 @@
             "affiliation": "Center for Public Environmental Oversight",
             "bio": "Lenny Siegel has been Executive Director of the Center for Public Environmental Oversight since 1994. He is one of the American environmental movement’s leading experts on both the vapor intrusion pathway and military facility contamination, having provided technical assistance to and visited scores of community organizations across the U.S. He has been writing about the semiconductor industry since the 1970s. For his organization he runs two Internet newsgroups: the Military Environmental Forum and the Brownfields Internet Forum, as well as activist discussion lists on TCE and PFAS. He has served or is serving on several ITRC (Interstate Technology & Regulatory Council) work teams on environmental remediation, including Vapor Intrusion and PFAS, and a dozen National Research Council committees addressing military environmental issues. In July 2011 Siegel was awarded U.S. EPA’s Superfund Citizen of the Year award for his work overseeing the Moffett Field/MEW Superfund project, site of one of U.S. EPA’s earliest and largest vapor intrusion investigations. He served as Mayor of Mountain View, California in 2018.",
             "photo": "https://static.wixstatic.com/media/ffaf03_25a5a37b144742469b0727ca9ffbd473~mv2.jpg"
+        },
+        "michael-bennett": {
+            "name": "Michael Bennett",
+            "affiliation": "Tufts University School of Medicine",
+            "bio": "I grew up in Maine and graduated from Bates College in Lewiston, Maine in 2019 with a biochemistry major. I am currently a fourth year medical student at the Tufts University Maine Track MD program and will graduate in 2025. I conducted this research during my third year core clerkship rotations at a small rural community hospital in Skowhegan, Maine. This is a very agricultural area of Maine and has been particularly effected by PFAS contamination of farms. I am planning on applying into Internal Medicine and am excited by the opportunity to present and learn at this conference.",
+            "photo": "https://static.wixstatic.com/media/ffaf03_e59700a183eb4a6e94289577848cc158~mv2.jpg"
         }
     }
 }
