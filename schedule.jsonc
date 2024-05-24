@@ -289,13 +289,97 @@
                 {
                     "time": "2:30 - 4:30",
                     "event": "Concurrent Workshops",
-                    "details": [
-                        "Medical Guidance for Clinicians and Patients",
-                        "Educational outreach for K-12 students on PFAS",
-                        "PFAS at Military Installations",
-                        "Community Mapping",
-                        "Effective strategies for public communications",
-                        "Community-Driven Health Survey"
+                    "workshops": [
+                        {
+                            "title": "Medical Guidance for Clinicians and Patients",
+                            "leads": [
+                                {
+                                    "name": "Sherri Homan",
+                                    "affiliation": "Mid-America Pediatric Environmental Health Specialty Unit"
+                                },
+                                {
+                                    "name": "Elizabeth Friedman",
+                                    "affiliation": "Mid-America Pediatric Environmental Health Specialty Unit"
+                                },
+                                {
+                                    "name": "Alan Ducatman",
+                                    "affiliation": "West Virginia University"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Educational outreach for K-12 students on PFAS",
+                            "leads": [
+                                {
+                                    "name": "Katy May",
+                                    "affiliation": "North Carolina State University"
+                                },
+                                {
+                                    "name": "Dana Haine",
+                                    "affiliation": "University of North Carolina"
+                                },
+                                {
+                                    "name": "Laurel Schaider",
+                                    "affiliation": "Silent Spring Institute"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "PFAS at Military Installations",
+                            "leads": [
+                                {
+                                    "name": "Tony Spaniola",
+                                    "affiliation": "Great Lakes PFAS Action Network"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Community Mapping",
+                            "leads": [
+                                {
+                                    "name": "Kim Garrett",
+                                    "affiliation": "Northeastern University"
+                                },
+                                {
+                                    "name": "John Hancock",
+                                    "affiliation": "West Plains Water Coalition"
+                                },
+                                {
+                                    "name": "Cheryl Sievers-Cail",
+                                    "affiliation": "Waccamaw Indian People"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Community-Driven Health Survey",
+                            "leads": [
+                                {
+                                    "name": "Sonya Lunder",
+                                    "affiliation": "Natural Resources Defense Council"
+                                },
+                                {
+                                    "name": "Katie Pelch",
+                                    "affiliation": "Natural Resources Defense Council"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Effective strategies for public communications",
+                            "leads": [
+                                {
+                                    "name": "Arlene Blum",
+                                    "affiliation": "Green Science Policy Institute"
+                                },
+                                {
+                                    "name": "Garret Ellison",
+                                    "affiliation": "MLive"
+                                },
+                                {
+                                    "name": "Pat Rizutto",
+                                    "affiliation": "Bloomberg"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
