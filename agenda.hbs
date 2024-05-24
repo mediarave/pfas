@@ -68,6 +68,18 @@
                 {{/each}}
             </ul>
             {{/if}}
+            {{#if workshops}}
+            <ul>
+                {{#each workshops}}
+                <li class="font-thin mb-4">
+                    {{this.title}}
+                    {{#each leads}}
+                    <div class="text-slate text-sm ml-2"><b class="text-cyan-400">{{this.name}}</b> - {{this.affiliation}}</div>
+                    {{/each}}
+                </li>
+                {{/each}}
+            </ul>
+            {{/if}}
         </div>
     </td>
 </tr>
