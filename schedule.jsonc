@@ -98,10 +98,7 @@
                 {
                     "time": "12:10 - 1:30",
                     "event": "Lunch and Learn Sessions",
-                    "details": [
-                        "Conversation with Arlene Blum from Green Science Policy",
-                        "PFAS Elimination in Blood with Courtney Carignan"
-                    ]
+                    "details": ["Conversation with Arlene Blum from Green Science Policy", "PFAS Elimination in Blood"]
                 },
                 {
                     "time": "1:30 - 2:00",
@@ -138,7 +135,7 @@
             // Rachel Rogers, Agency for Toxic Substances and Disease Registry
             // 9:30-10:40 am	Session1	New Discoveries in PFAS Health Effects
             // Tobyn McNaughton, Impacted Community Member
-            // Jesse Goodrich, University of Southern Carolina
+            // Jesse Goodrich, University of Southern California
             // Jackie Goodrich, University of Michigan
             // Brittany Rickard, North Carolina State University
             // 10:40-11:00 am	Break
@@ -548,7 +545,7 @@
         },
         "jesse-goodrich": {
             "name": "Jesse Goodrich",
-            "affiliation": "University of Southern Carolina",
+            "affiliation": "University of Southern California",
             "bio": "Jesse Goodrich is an Assistant Professor of Population and Public Health Sciences in the Division of Environmental Health and a member of the Norris Comprehensive Cancer Center at the Keck School of Medicine at the University of Southern California. Specializing in environmental epidemiology, data science, and physiology, his research focuses on uncovering the negative health impacts of PFAS and other environmental chemicals, particularly among racial/ethnic minorities and other vulnerable groups. By applying state of the art molecular biology techniques into his epidemiological studies, he seeks to understand the biological processes through which PFAS cause health issues. By understanding the mechanisms of PFAS associated adverse health effects, his research aims to develop methods to help identify individuals at highest risk of PFAS induced liver and kidney disease and to inform on new strategies to mitigate PFAS-related health risks in underserved populations.",
             "photo": "https://static.wixstatic.com/media/ffaf03_e789a9760f0c4dc5a6813dea54e647b2~mv2.jpg"
         },
