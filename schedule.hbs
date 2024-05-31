@@ -99,14 +99,15 @@
 <body class="bg-cyan-900 text-sky-100 m-0 font-sans overflow-hidden w-screen h-screen">
 
     <header class="p-10 border-0 border-b-4 border-b-cyan-600 border-solid">
-        <h1 class="text-5xl">Schedule of Events</h1>
+        <h1 class="text-4xl md:text-5xl">Schedule of Events</h1>
         <p>
             The technical program is under development by the organizing committee, which uses community feedback to determine sessions and invite speakers. Join our mailing list to receive updates.
         </p>
         <p>All events at the Michigan League unless otherwise noted. Field trips will depart from the Michigan League.</p>
 
-        <p>View our list of posters!
-            <a href="https://ffaf03bd-bea1-428e-b4fe-fd37c66c9ee2.usrfiles.com/ugd/ffaf03_a8239e7e899945c489b2a477d02599b2.pdf" target="_blank" class="bg-cyan-600 hover:bg-cyan-700 hover:cursor-pointer text-white font-bold mx-4 py-2 px-4  rounded text-lg no-underline">Conference Posters</a>
+        <p>
+            <span class="mb-4 block md:inline">View our list of posters!</span>
+            <a href="https://ffaf03bd-bea1-428e-b4fe-fd37c66c9ee2.usrfiles.com/ugd/ffaf03_a8239e7e899945c489b2a477d02599b2.pdf" target="_blank" class="bg-cyan-600 hover:bg-cyan-700 hover:cursor-pointer text-white font-bold md:mx-4 py-2 px-4 rounded inline-block text-md md:text-lg no-underline">Conference Posters</a>
         </p>
 
     </header>
@@ -122,8 +123,8 @@
             {{#each schedule}}
             <section>
                 <header class="text-cyan-200 border-0 border-b-4 border-solid border-cyan-400">
-                    <h2 class="uppercase text-4xl font-bold mb-0">{{day}}</h2>
-                    <h3 class="text-2xl text-cyan-400 m-0">{{focus}}</h3>
+                    <h2 class="uppercase text-3xl md:text-4xl font-bold mb-0">{{day}}</h2>
+                    <h3 class="text-xl md:text-2xl text-cyan-400 m-0">{{focus}}</h3>
                 </header>
                 <table class="border-collapse w-full text-sm border-0">
                     <tbody>
