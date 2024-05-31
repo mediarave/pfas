@@ -102,7 +102,8 @@
                 },
                 {
                     "time": "1:30 - 2:00",
-                    "event": "Keynote Presentation"
+                    "event": "Keynote Presentation",
+                    "presenters": ["mary-frances-repko"]
                 },
                 {
                     "time": "2:00 - 3:10",
@@ -172,7 +173,7 @@
                 },
                 {
                     "time": "9:00 - 9:30",
-                    "event": "Keynote Presentation: Establishing Patient Care for Exposed Communities",
+                    "event": "Keynote Presentation: Advancing Public Health Research to Address PFAS Concerns – Ongoing Initiatives and Next Steps",
                     "presenters": ["rachel-rogers"]
                 },
                 {
@@ -259,7 +260,7 @@
                 {
                     "time": "9:30 - 10:40",
                     "event": "Session 1: Remediation",
-                    "presenters": ["joanne-stanton", "dave-reap", "detlef-knappe"]
+                    "presenters": ["joanne-stanton", "hope-gross", "dave-reap", "detlef-knappe"]
                 },
                 {
                     "time": "10:40 - 11:00",
@@ -286,6 +287,7 @@
                 {
                     "time": "2:30 - 4:30",
                     "event": "Concurrent Workshops",
+                    "dim": true,
                     "workshops": [
                         {
                             "title": "Medical Guidance for Clinicians and Patients",
@@ -319,7 +321,8 @@
                                     "name": "Laurel Schaider",
                                     "affiliation": "Silent Spring Institute"
                                 }
-                            ]
+                            ],
+                            "description": "Participants in this interactive session will hear from educators and scientists at three NIEHS-funded research centers that feature current research on PFAS in K-12 classrooms and informal science learning environments. These efforts range from multi-year, NIH-funded teacher professional development programming to partnerships with school-based programs and early-stage efforts to engage students, including Tribal youth, in informal science learning. Presenters will describe and model approaches to creating and disseminating PFAS-centric educational activities, including strategies for promoting young researchers, and discussions will consider ways that K-12 activities can encourage youth to engage with local environmental and public health issues."
                         },
                         {
                             "title": "PFAS at Military Installations",
@@ -345,20 +348,8 @@
                                     "name": "Cheryl Sievers-Cail",
                                     "affiliation": "Waccamaw Indian People"
                                 }
-                            ]
-                        },
-                        {
-                            "title": "Community-Driven Health Survey",
-                            "leads": [
-                                {
-                                    "name": "Sonya Lunder",
-                                    "affiliation": "Natural Resources Defense Council"
-                                },
-                                {
-                                    "name": "Katie Pelch",
-                                    "affiliation": "Natural Resources Defense Council"
-                                }
-                            ]
+                            ],
+                            "description": "This workshop will include mapping basics including why maps are useful tools for communities to identify and share their environmental experiences. The presenter will share examples from their work with maps of PFAS contamination."
                         },
                         {
                             "title": "Effective strategies for public communications",
@@ -374,6 +365,20 @@
                                 {
                                     "name": "Pat Rizutto",
                                     "affiliation": "Bloomberg"
+                                }
+                            ],
+                            "description": "This workshop will provide inspirational stories and practical guidance to increase the impact of PFAS research and advocacy work through communication strategy. Participants will hear the stories of scientists who have successfully communicated their research studies to effect change and from journalists who cover PFAS.  Participants will also be given access to resources to increase the press coverage and impact of their work including a press release template and communications planning worksheet."
+                        },
+                        {
+                            "title": "Community-Driven Health Survey",
+                            "leads": [
+                                {
+                                    "name": "Sonya Lunder",
+                                    "affiliation": "Natural Resources Defense Council"
+                                },
+                                {
+                                    "name": "Katie Pelch",
+                                    "affiliation": "Natural Resources Defense Council"
                                 }
                             ]
                         }
@@ -391,7 +396,7 @@
         },
         "santa-ono": {
             "name": "Santa Ono",
-            "affiliation": "University of Michigan",
+            "affiliation": "University of Michigan (via video)",
             "bio": "Santa Ono is the President of the University of Michigan. He is a distinguished scholar and researcher in the field of eye disease and has made significant contributions to the understanding of the molecular mechanisms of eye disease. He is a passionate advocate for higher education and has worked to promote diversity and inclusion on college campuses."
         },
         "courtney-carignan": {
@@ -471,6 +476,10 @@
             "affiliation": "Environmental Protection Agency",
             "bio": "Brittany Jacobs is a biologist and team lead in the Human Health Risk Assessment Branch in the Office of Science and Technology, Office of Water at the U.S. Environmental Protection Agency. She joined EPA as a Presidential Management Fellow in August 2016 after completing her Ph.D. in Cell and Molecular Biology from the University of Wisconsin-Madison. Brittany has worked on projects supporting Safe Drinking Water Act actions and Clean Water Act actions, most notably the GenX chemicals toxicity assessment finalized in 2021 and the updated toxicity assessments for PFOA and PFOS finalized in 2024. Brittany co-led the effort to derive maximum contaminant level goals for PFOA and PFOS, which supported the National Primary Drinking Water Regulation for PFAS finalized in April 2024.",
             "photo": "https://static.wixstatic.com/media/ffaf03_9b09fe0e017e4839914f11aa0b9f013d~mv2.jpg"
+        },
+        "mary-frances-repko": {
+            "name": "Mary Frances Repko",
+            "affiliation": "Deputy Assistant to the President and Deputy National Climate Advisor"
         },
         "brittany-rickard": {
             "name": "Brittany Rickard",
@@ -642,6 +651,10 @@
         },
         "joanne-stanton": {
             "name": "Joanne Stanton",
+            "affiliation": "Buxmont Coalition for Safer Water"
+        },
+        "hope-gross": {
+            "name": "Hope Gross",
             "affiliation": "Buxmont Coalition for Safer Water"
         },
         "dave-reap": {

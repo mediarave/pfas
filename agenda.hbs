@@ -1,6 +1,6 @@
 {{#each agenda}}
-<tr class="border-0{{#if time}} border-t first:border-t-0{{/if}}{{#if ../session}} bg-slate-100{{/if}}">
-    <td class="font-bold text-lg">{{time}}</td>
+<tr class="border-0{{#if time}} border-t first:border-t-0{{/if}}{{#unless dim}} hover:bg-cyan-800{{/unless}}{{#if ../session}} bg-slate-100{{/if}}">
+    <td class="font-bold text-lg text-center">{{time}}</td>
     <td class="inline-block">
         {{#if presenters.length}}
         <div class="presenters pb-1 border-0 border-b border-dashed border-slate-200">
@@ -76,6 +76,11 @@
                     {{#each leads}}
                     <div class="text-slate text-sm ml-2 mb-1"><b class="text-cyan-400">{{this.name}}</b> - {{this.affiliation}}</div>
                     {{/each}}
+                    {{#if this.description}}
+                    <article class="text-sm max-w-3xl p-4 bg-cyan-900">
+                        {{{this.description}}}
+                    </article>
+                    {{/if}}
                 </li>
                 {{/each}}
             </ul>
